@@ -63,3 +63,116 @@ For this assignment I have used four kinds of nodes for AST namely UnApp, BinApp
 4. TriApps (triop * exp * exp * exp ) : *ITE* ( this is the if then else operator , this operator has three children nodes , the first node represent the boolean expression the second child represent represent the Command sequence to be executed when the boolean expression in the if block is true, the 3rd child contains the command sequence to be exeuted when the boolean expression inside the if block is false )
 
 ## Syntax-directed translation
+
+Start : PROG Identifier DCOLON Block -> ( AST.BinApp(AST.PROG , Identifier , Block )) 
+
+Block: DeclarationSeq CommandSeqa -> (AST.BinApp(AST.BLOCK ,DeclarationSeq , CommandSeqa)) 
+|CommandSeqa  -> (AST.BinApp(AST.BLOCK ,AST.Int(0) , CommandSeqa)) 
+
+
+
+
+CommandSeqa : LBR RBR -> (AST.Int(0))         
+| LBR  CommandSeq RBR -> (CommandSeq)
+
+CommandSeq : Command SCOLON -> (Command )
+|Command SCOLON CommandSeq -> ( AST.BinApp(AST.COMSEQ , Command , CommandSeq)) 
+
+Command : Var SET Exp-> (AST.BinApp(AST.SET , Var , Exp) )
+| READ Var -> (AST.UnApp(AST.READ  , Var)) 
+| WRITE intexp -> (AST.UnApp(AST.WRITE  , intexp)) 
+| IF boolexp THEN CommandSeqa ELSE CommandSeqa ENDIF -> (AST.TriApp(AST.ITE, boolexp  ,CommandSeqa1 ,  CommandSeqa2 ))
+| WHILE boolexp DO CommandSeqa ENDWH -> (AST.BinApp(AST.WH , boolexp , CommandSeqa ))
+
+Exp : intexp-> (intexp) | boolexp-> (boolexp) 
+
+intexp : Term -> (Term)
+| intexp MINUS Term -> (AST.BinApp(AST.MINUS,intexp,Term))
+Term : Factor -> (Factor)
+| Term TIMES Factor -> (AST.BinApp(AST.TIMES,Term,Factor))  
+| Term DIV Factor -> (AST.BinApp(AST.DIV,Term,Factor))
+| Term MOD Factor -> (AST.BinApp(AST.MOD,Term,Factor))
+
+Factor : Unit -> (Unit)
+| Var -> (Var) 
+| TELDA Factor -> (AST.UnApp(AST.TELDA , Factor))
+| LPAREN intexp RPAREN -> (intexp)
+
+Unit : INT -> (AST.Int(INT))
+
+Var : VAR -> (AST.Var(VAR))
+
+boolexp : BTerm-> (BTerm)
+| boolexp OR BTerm -> (AST.BinApp(AST.OR,boolexp,BTerm))
+
+BTerm : Bfactor -> (Bfactor)
+| BTerm AND Bfactor -> (AST.BinApp(AST.AND,BTerm,Bfactor))
+
+Bfactor : BUnit -> (BUnit)
+|Var -> (Var) 
+
+|Comparison-> (Comparison) 
+| NOT Bfactor -> (AST.UnApp(AST.NOT , Bfactor))
+| LPAREN boolexp RPAREN -> (boolexp)
+
+Comparison: 
+intexp LT intexp -> ( AST.BinApp(AST.LT, intexp1 , intexp2)) 
+|intexp GT intexp -> ( AST.BinApp(AST.GT, intexp1 , intexp2))
+|intexp LEQ intexp -> ( AST.BinApp(AST.LEQ, intexp1 , intexp2))
+|intexp GEQ intexp -> ( AST.BinApp(AST.GEQ, intexp1 , intexp2))
+|intexp EQ intexp -> ( AST.BinApp(AST.EQ, intexp1 , intexp2))
+|intexp NEQ intexp -> ( AST.BinApp(AST.NEQ, intexp1 , intexp2))
+
+|boolexp LT boolexp -> ( AST.BinApp(AST.LT, boolexp1 , boolexp2)) 
+|boolexp GT boolexp -> ( AST.BinApp(AST.GT, boolexp1 , boolexp2))
+|boolexp LEQ boolexp -> ( AST.BinApp(AST.LEQ, boolexp1 , boolexp2))
+|boolexp GEQ boolexp -> ( AST.BinApp(AST.GEQ, boolexp1 , boolexp2))
+|boolexp EQ boolexp -> ( AST.BinApp(AST.EQ, boolexp1 , boolexp2))
+|boolexp NEQ boolexp -> ( AST.BinApp(AST.NEQ, boolexp1 , boolexp2))
+
+|boolexp LT intexp -> ( AST.BinApp(AST.LT, boolexp , intexp)) 
+|boolexp GT intexp -> ( AST.BinApp(AST.GT, boolexp , intexp))
+|boolexp LEQ intexp -> ( AST.BinApp(AST.LEQ, boolexp , intexp))
+|boolexp GEQ intexp -> ( AST.BinApp(AST.GEQ, boolexp , intexp))
+|boolexp EQ intexp -> ( AST.BinApp(AST.EQ, boolexp , intexp))
+|boolexp NEQ intexp -> ( AST.BinApp(AST.NEQ, boolexp , intexp))
+
+|intexp LT boolexp -> ( AST.BinApp(AST.LT, intexp , boolexp)) 
+|intexp GT boolexp -> ( AST.BinApp(AST.GT, intexp , boolexp))
+|intexp LEQ boolexp -> ( AST.BinApp(AST.LEQ, intexp , boolexp))
+|intexp GEQ boolexp -> ( AST.BinApp(AST.GEQ, intexp , boolexp))
+|intexp EQ boolexp -> ( AST.BinApp(AST.EQ, intexp , boolexp))
+|intexp NEQ boolexp -> ( AST.BinApp(AST.NEQ, intexp , boolexp))
+
+
+BUnit : BOOL -> (AST.Bool(BOOL))
+
+
+Identifier : Var-> (Var)
+
+## Auxiliary functions and Data
+
+DeclarationSeq : Declaration -> ( Declaration)
+| DeclarationSeq Declaration -> (AST.BinApp(AST.DECLSEQ , DeclarationSeq , Declaration))
+
+Declaration : VARI VariableList COLON TYPE SCOLON ->  (AST.BinAppS(AST.DECL , VariableList , TYPE))  
+
+VariableList : Var ->  (Var) 
+| Var COMMA VariableList -> ( AST.BinApp(AST.VARL , Var , VariableList1)) 
+
+command : READ Var -> (AST.UnApp(AST.READ  , Var)) 
+| WRITE intexp -> (AST.UnApp(AST.WRITE  , intexp)) 
+
+## Other Design Decisions
+
+
+
+1. Since I have kept seperate expression for the boolean expression and the integer expressions, there are 2 reduce| reduce conflicts because in case of x := y, the parser desnot know whether to reduce y as a boolean or an integer, this can be taken care by typechecking in the next phase of the assignement. 
+
+2. One of the major design decision I took is the comparison of boolean and integer. We can take tt=1 and ff=0 and compare the bools and integers. Since there is a reduce reduce conflict in the grammar, the parser is unable to parse the sentences like (A < C) < D, since it parses D as an integer, so we need to allow integer- bool comparision so as to parse the expressions like these. The modern programming languages such as C++ also allow the int-bool comparison so this design decision is valid. Since in the assignement it was mentioned we can compare bools among each other thats why I had to take this design .decision to allow bool-bool , int - bool comparison both. This lead to many shift-reduce and reduce-reduce conflicts, these conflicts can be prevented by typechecking in the next phase of the assignemt.
+
+## Other Implementation Decisions
+
+1. I used an extra non terminal symbol CommandSeqa so as to help with 0 commands program since we need to put braces also, in case the number of command sequences are 0 then the node of the ast will have int(0) as the value.
+
+2. When the Declaration sequence have 0 declarations, The value of the node will be int(0) 
