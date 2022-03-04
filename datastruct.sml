@@ -1,11 +1,17 @@
 structure AST =
 struct
-datatype iexp = Int of int
-| Node of binop * iexp * iexp
-and binop = PLUS | MINUS | TIMES | DIV | MOD  |LT|LEQ |  EQ| GT| GEQ| NEQ
-datatype bexp = BOOL of BOOL | Node of boolop * bexp * bexp 
-and boolop = NOT | AND | OR
-datatype cmnd = Cmnd of cmnd 
-|
+datatype Type = TYPE  
+
+datatype exp = Int of int |Bool of bool |Var of string | Type of Type 
+| UnApp of unop * exp 
+| BinApp of binop * exp * exp
+| BinAppS of binop * exp * string 
+| TriApp of triop * exp * exp * exp 
+
+and unop = NOT| TELDA  |READ |WRITE | WHILE 
+and binop = PLUS | MINUS |DECLSEQ |DECL| TIMES | VARL |DIV | MOD |PROG|BLOCK |INT |BOOL 
+ | AND| OR|LT| LEQ| GT| GEQ |EQ |NEQ|COMSEQ|SET |WH 
+and triop = ITE 
 (* Various AST functions omitted from this slide *)
 end
+ 
