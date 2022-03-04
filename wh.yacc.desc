@@ -1,7 +1,201 @@
-2 reduce/reduce conflicts
+35 reduce/reduce conflicts
+158 shift/reduce conflicts
+1 rule not reduced
 
-error:  state 28: reduce/reduce conflict between rule 28 and rule 38 on SCOLON
-error:  state 28: reduce/reduce conflict between rule 28 and rule 38 on RPAREN
+warning: rule <Bfactor : Var > will never be reduced
+error:  state 28: reduce/reduce conflict between rule 27 and rule 37 on DO
+error:  state 28: reduce/reduce conflict between rule 27 and rule 37 on THEN
+error:  state 28: reduce/reduce conflict between rule 27 and rule 37 on SCOLON
+error:  state 28: reduce/reduce conflict between rule 27 and rule 37 on RPAREN
+error:  state 28: reduce/reduce conflict between rule 27 and rule 37 on NEQ
+error:  state 28: reduce/reduce conflict between rule 27 and rule 37 on EQ
+error:  state 28: reduce/reduce conflict between rule 27 and rule 37 on GEQ
+error:  state 28: reduce/reduce conflict between rule 27 and rule 37 on GT
+error:  state 28: reduce/reduce conflict between rule 27 and rule 37 on LEQ
+error:  state 28: reduce/reduce conflict between rule 27 and rule 37 on LT
+error:  state 28: reduce/reduce conflict between rule 27 and rule 37 on OR
+error:  state 28: reduce/reduce conflict between rule 27 and rule 37 on AND
+error:  state 34: shift/reduce conflict (shift AND, reduce by rule 32)
+error:  state 76: reduce/reduce conflict between rule 39 and rule 34 on NEQ
+error:  state 76: reduce/reduce conflict between rule 39 and rule 34 on EQ
+error:  state 76: reduce/reduce conflict between rule 39 and rule 34 on GEQ
+error:  state 76: reduce/reduce conflict between rule 39 and rule 34 on GT
+error:  state 76: reduce/reduce conflict between rule 39 and rule 34 on LEQ
+error:  state 76: reduce/reduce conflict between rule 39 and rule 34 on LT
+error:  state 76: reduce/reduce conflict between rule 39 and rule 34 on OR
+error:  state 76: reduce/reduce conflict between rule 39 and rule 34 on AND
+error:  state 85: reduce/reduce conflict between rule 35 and rule 34 on NEQ
+error:  state 85: reduce/reduce conflict between rule 35 and rule 34 on EQ
+error:  state 85: reduce/reduce conflict between rule 35 and rule 34 on GEQ
+error:  state 85: reduce/reduce conflict between rule 35 and rule 34 on GT
+error:  state 85: reduce/reduce conflict between rule 35 and rule 34 on LEQ
+error:  state 85: reduce/reduce conflict between rule 35 and rule 34 on LT
+error:  state 85: reduce/reduce conflict between rule 35 and rule 34 on OR
+error:  state 85: reduce/reduce conflict between rule 35 and rule 34 on AND
+error:  state 87: shift/reduce conflict (shift NEQ, reduce by rule 52)
+error:  state 87: shift/reduce conflict (shift EQ, reduce by rule 52)
+error:  state 87: shift/reduce conflict (shift GEQ, reduce by rule 52)
+error:  state 87: shift/reduce conflict (shift GT, reduce by rule 52)
+error:  state 87: shift/reduce conflict (shift LEQ, reduce by rule 52)
+error:  state 87: shift/reduce conflict (shift LT, reduce by rule 52)
+error:  state 87: shift/reduce conflict (shift OR, reduce by rule 52)
+error:  state 88: shift/reduce conflict (shift NEQ, reduce by rule 58)
+error:  state 88: shift/reduce conflict (shift EQ, reduce by rule 58)
+error:  state 88: shift/reduce conflict (shift GEQ, reduce by rule 58)
+error:  state 88: shift/reduce conflict (shift GT, reduce by rule 58)
+error:  state 88: shift/reduce conflict (shift LEQ, reduce by rule 58)
+error:  state 88: shift/reduce conflict (shift LT, reduce by rule 58)
+error:  state 89: shift/reduce conflict (shift NEQ, reduce by rule 51)
+error:  state 89: shift/reduce conflict (shift EQ, reduce by rule 51)
+error:  state 89: shift/reduce conflict (shift GEQ, reduce by rule 51)
+error:  state 89: shift/reduce conflict (shift GT, reduce by rule 51)
+error:  state 89: shift/reduce conflict (shift LEQ, reduce by rule 51)
+error:  state 89: shift/reduce conflict (shift LT, reduce by rule 51)
+error:  state 89: shift/reduce conflict (shift OR, reduce by rule 51)
+error:  state 90: shift/reduce conflict (shift NEQ, reduce by rule 57)
+error:  state 90: shift/reduce conflict (shift EQ, reduce by rule 57)
+error:  state 90: shift/reduce conflict (shift GEQ, reduce by rule 57)
+error:  state 90: shift/reduce conflict (shift GT, reduce by rule 57)
+error:  state 90: shift/reduce conflict (shift LEQ, reduce by rule 57)
+error:  state 90: shift/reduce conflict (shift LT, reduce by rule 57)
+error:  state 91: shift/reduce conflict (shift NEQ, reduce by rule 50)
+error:  state 91: shift/reduce conflict (shift EQ, reduce by rule 50)
+error:  state 91: shift/reduce conflict (shift GEQ, reduce by rule 50)
+error:  state 91: shift/reduce conflict (shift GT, reduce by rule 50)
+error:  state 91: shift/reduce conflict (shift LEQ, reduce by rule 50)
+error:  state 91: shift/reduce conflict (shift LT, reduce by rule 50)
+error:  state 91: shift/reduce conflict (shift OR, reduce by rule 50)
+error:  state 92: shift/reduce conflict (shift NEQ, reduce by rule 56)
+error:  state 92: shift/reduce conflict (shift EQ, reduce by rule 56)
+error:  state 92: shift/reduce conflict (shift GEQ, reduce by rule 56)
+error:  state 92: shift/reduce conflict (shift GT, reduce by rule 56)
+error:  state 92: shift/reduce conflict (shift LEQ, reduce by rule 56)
+error:  state 92: shift/reduce conflict (shift LT, reduce by rule 56)
+error:  state 93: shift/reduce conflict (shift NEQ, reduce by rule 48)
+error:  state 93: shift/reduce conflict (shift EQ, reduce by rule 48)
+error:  state 93: shift/reduce conflict (shift GEQ, reduce by rule 48)
+error:  state 93: shift/reduce conflict (shift GT, reduce by rule 48)
+error:  state 93: shift/reduce conflict (shift LEQ, reduce by rule 48)
+error:  state 93: shift/reduce conflict (shift LT, reduce by rule 48)
+error:  state 93: shift/reduce conflict (shift OR, reduce by rule 48)
+error:  state 94: shift/reduce conflict (shift NEQ, reduce by rule 54)
+error:  state 94: shift/reduce conflict (shift EQ, reduce by rule 54)
+error:  state 94: shift/reduce conflict (shift GEQ, reduce by rule 54)
+error:  state 94: shift/reduce conflict (shift GT, reduce by rule 54)
+error:  state 94: shift/reduce conflict (shift LEQ, reduce by rule 54)
+error:  state 94: shift/reduce conflict (shift LT, reduce by rule 54)
+error:  state 95: shift/reduce conflict (shift NEQ, reduce by rule 49)
+error:  state 95: shift/reduce conflict (shift EQ, reduce by rule 49)
+error:  state 95: shift/reduce conflict (shift GEQ, reduce by rule 49)
+error:  state 95: shift/reduce conflict (shift GT, reduce by rule 49)
+error:  state 95: shift/reduce conflict (shift LEQ, reduce by rule 49)
+error:  state 95: shift/reduce conflict (shift LT, reduce by rule 49)
+error:  state 95: shift/reduce conflict (shift OR, reduce by rule 49)
+error:  state 96: shift/reduce conflict (shift NEQ, reduce by rule 55)
+error:  state 96: shift/reduce conflict (shift EQ, reduce by rule 55)
+error:  state 96: shift/reduce conflict (shift GEQ, reduce by rule 55)
+error:  state 96: shift/reduce conflict (shift GT, reduce by rule 55)
+error:  state 96: shift/reduce conflict (shift LEQ, reduce by rule 55)
+error:  state 96: shift/reduce conflict (shift LT, reduce by rule 55)
+error:  state 97: shift/reduce conflict (shift NEQ, reduce by rule 47)
+error:  state 97: shift/reduce conflict (shift EQ, reduce by rule 47)
+error:  state 97: shift/reduce conflict (shift GEQ, reduce by rule 47)
+error:  state 97: shift/reduce conflict (shift GT, reduce by rule 47)
+error:  state 97: shift/reduce conflict (shift LEQ, reduce by rule 47)
+error:  state 97: shift/reduce conflict (shift LT, reduce by rule 47)
+error:  state 97: shift/reduce conflict (shift OR, reduce by rule 47)
+error:  state 98: shift/reduce conflict (shift NEQ, reduce by rule 53)
+error:  state 98: shift/reduce conflict (shift EQ, reduce by rule 53)
+error:  state 98: shift/reduce conflict (shift GEQ, reduce by rule 53)
+error:  state 98: shift/reduce conflict (shift GT, reduce by rule 53)
+error:  state 98: shift/reduce conflict (shift LEQ, reduce by rule 53)
+error:  state 98: shift/reduce conflict (shift LT, reduce by rule 53)
+error:  state 99: reduce/reduce conflict between rule 33 and rule 32 on NEQ
+error:  state 99: reduce/reduce conflict between rule 33 and rule 32 on EQ
+error:  state 99: reduce/reduce conflict between rule 33 and rule 32 on GEQ
+error:  state 99: reduce/reduce conflict between rule 33 and rule 32 on GT
+error:  state 99: reduce/reduce conflict between rule 33 and rule 32 on LEQ
+error:  state 99: reduce/reduce conflict between rule 33 and rule 32 on LT
+error:  state 99: reduce/reduce conflict between rule 33 and rule 32 on OR
+error:  state 99: shift/reduce conflict (shift AND, reduce by rule 33)
+error:  state 100: shift/reduce conflict (shift NEQ, reduce by rule 64)
+error:  state 100: shift/reduce conflict (shift EQ, reduce by rule 64)
+error:  state 100: shift/reduce conflict (shift GEQ, reduce by rule 64)
+error:  state 100: shift/reduce conflict (shift GT, reduce by rule 64)
+error:  state 100: shift/reduce conflict (shift LEQ, reduce by rule 64)
+error:  state 100: shift/reduce conflict (shift LT, reduce by rule 64)
+error:  state 100: shift/reduce conflict (shift OR, reduce by rule 64)
+error:  state 101: shift/reduce conflict (shift NEQ, reduce by rule 46)
+error:  state 101: shift/reduce conflict (shift EQ, reduce by rule 46)
+error:  state 101: shift/reduce conflict (shift GEQ, reduce by rule 46)
+error:  state 101: shift/reduce conflict (shift GT, reduce by rule 46)
+error:  state 101: shift/reduce conflict (shift LEQ, reduce by rule 46)
+error:  state 101: shift/reduce conflict (shift LT, reduce by rule 46)
+error:  state 102: shift/reduce conflict (shift NEQ, reduce by rule 63)
+error:  state 102: shift/reduce conflict (shift EQ, reduce by rule 63)
+error:  state 102: shift/reduce conflict (shift GEQ, reduce by rule 63)
+error:  state 102: shift/reduce conflict (shift GT, reduce by rule 63)
+error:  state 102: shift/reduce conflict (shift LEQ, reduce by rule 63)
+error:  state 102: shift/reduce conflict (shift LT, reduce by rule 63)
+error:  state 102: shift/reduce conflict (shift OR, reduce by rule 63)
+error:  state 103: shift/reduce conflict (shift NEQ, reduce by rule 45)
+error:  state 103: shift/reduce conflict (shift EQ, reduce by rule 45)
+error:  state 103: shift/reduce conflict (shift GEQ, reduce by rule 45)
+error:  state 103: shift/reduce conflict (shift GT, reduce by rule 45)
+error:  state 103: shift/reduce conflict (shift LEQ, reduce by rule 45)
+error:  state 103: shift/reduce conflict (shift LT, reduce by rule 45)
+error:  state 104: shift/reduce conflict (shift NEQ, reduce by rule 62)
+error:  state 104: shift/reduce conflict (shift EQ, reduce by rule 62)
+error:  state 104: shift/reduce conflict (shift GEQ, reduce by rule 62)
+error:  state 104: shift/reduce conflict (shift GT, reduce by rule 62)
+error:  state 104: shift/reduce conflict (shift LEQ, reduce by rule 62)
+error:  state 104: shift/reduce conflict (shift LT, reduce by rule 62)
+error:  state 104: shift/reduce conflict (shift OR, reduce by rule 62)
+error:  state 105: shift/reduce conflict (shift NEQ, reduce by rule 44)
+error:  state 105: shift/reduce conflict (shift EQ, reduce by rule 44)
+error:  state 105: shift/reduce conflict (shift GEQ, reduce by rule 44)
+error:  state 105: shift/reduce conflict (shift GT, reduce by rule 44)
+error:  state 105: shift/reduce conflict (shift LEQ, reduce by rule 44)
+error:  state 105: shift/reduce conflict (shift LT, reduce by rule 44)
+error:  state 106: shift/reduce conflict (shift NEQ, reduce by rule 60)
+error:  state 106: shift/reduce conflict (shift EQ, reduce by rule 60)
+error:  state 106: shift/reduce conflict (shift GEQ, reduce by rule 60)
+error:  state 106: shift/reduce conflict (shift GT, reduce by rule 60)
+error:  state 106: shift/reduce conflict (shift LEQ, reduce by rule 60)
+error:  state 106: shift/reduce conflict (shift LT, reduce by rule 60)
+error:  state 106: shift/reduce conflict (shift OR, reduce by rule 60)
+error:  state 107: shift/reduce conflict (shift NEQ, reduce by rule 42)
+error:  state 107: shift/reduce conflict (shift EQ, reduce by rule 42)
+error:  state 107: shift/reduce conflict (shift GEQ, reduce by rule 42)
+error:  state 107: shift/reduce conflict (shift GT, reduce by rule 42)
+error:  state 107: shift/reduce conflict (shift LEQ, reduce by rule 42)
+error:  state 107: shift/reduce conflict (shift LT, reduce by rule 42)
+error:  state 108: shift/reduce conflict (shift NEQ, reduce by rule 61)
+error:  state 108: shift/reduce conflict (shift EQ, reduce by rule 61)
+error:  state 108: shift/reduce conflict (shift GEQ, reduce by rule 61)
+error:  state 108: shift/reduce conflict (shift GT, reduce by rule 61)
+error:  state 108: shift/reduce conflict (shift LEQ, reduce by rule 61)
+error:  state 108: shift/reduce conflict (shift LT, reduce by rule 61)
+error:  state 108: shift/reduce conflict (shift OR, reduce by rule 61)
+error:  state 109: shift/reduce conflict (shift NEQ, reduce by rule 43)
+error:  state 109: shift/reduce conflict (shift EQ, reduce by rule 43)
+error:  state 109: shift/reduce conflict (shift GEQ, reduce by rule 43)
+error:  state 109: shift/reduce conflict (shift GT, reduce by rule 43)
+error:  state 109: shift/reduce conflict (shift LEQ, reduce by rule 43)
+error:  state 109: shift/reduce conflict (shift LT, reduce by rule 43)
+error:  state 110: shift/reduce conflict (shift NEQ, reduce by rule 59)
+error:  state 110: shift/reduce conflict (shift EQ, reduce by rule 59)
+error:  state 110: shift/reduce conflict (shift GEQ, reduce by rule 59)
+error:  state 110: shift/reduce conflict (shift GT, reduce by rule 59)
+error:  state 110: shift/reduce conflict (shift LEQ, reduce by rule 59)
+error:  state 110: shift/reduce conflict (shift LT, reduce by rule 59)
+error:  state 110: shift/reduce conflict (shift OR, reduce by rule 59)
+error:  state 111: shift/reduce conflict (shift NEQ, reduce by rule 41)
+error:  state 111: shift/reduce conflict (shift EQ, reduce by rule 41)
+error:  state 111: shift/reduce conflict (shift GEQ, reduce by rule 41)
+error:  state 111: shift/reduce conflict (shift GT, reduce by rule 41)
+error:  state 111: shift/reduce conflict (shift LEQ, reduce by rule 41)
+error:  state 111: shift/reduce conflict (shift LT, reduce by rule 41)
 
 state 0:
 
@@ -9,7 +203,7 @@ state 0:
 
 	PROG	shift 1
 
-	Start	goto 97
+	Start	goto 122
 
 	.	error
 
@@ -38,9 +232,9 @@ state 2:
 
 state 3:
 
-	Identifier : Var .  (reduce by rule 1)
+	Identifier : Var .  (reduce by rule 66)
 
-	DCOLON	reduce by rule 1
+	DCOLON	reduce by rule 66
 
 
 	.	error
@@ -48,29 +242,29 @@ state 3:
 
 state 4:
 
-	Var : VAR .  (reduce by rule 32)
+	Var : VAR .  (reduce by rule 31)
 
-	PLUS	reduce by rule 32
-	MINUS	reduce by rule 32
-	TIMES	reduce by rule 32
-	DIV	reduce by rule 32
-	MOD	reduce by rule 32
-	AND	reduce by rule 32
-	OR	reduce by rule 32
-	LT	reduce by rule 32
-	LEQ	reduce by rule 32
-	GT	reduce by rule 32
-	GEQ	reduce by rule 32
-	EQ	reduce by rule 32
-	NEQ	reduce by rule 32
-	RPAREN	reduce by rule 32
-	DCOLON	reduce by rule 32
-	COMMA	reduce by rule 32
-	COLON	reduce by rule 32
-	SCOLON	reduce by rule 32
-	SET	reduce by rule 32
-	THEN	reduce by rule 32
-	DO	reduce by rule 32
+	PLUS	reduce by rule 31
+	MINUS	reduce by rule 31
+	TIMES	reduce by rule 31
+	DIV	reduce by rule 31
+	MOD	reduce by rule 31
+	AND	reduce by rule 31
+	OR	reduce by rule 31
+	LT	reduce by rule 31
+	LEQ	reduce by rule 31
+	GT	reduce by rule 31
+	GEQ	reduce by rule 31
+	EQ	reduce by rule 31
+	NEQ	reduce by rule 31
+	RPAREN	reduce by rule 31
+	DCOLON	reduce by rule 31
+	COMMA	reduce by rule 31
+	COLON	reduce by rule 31
+	SCOLON	reduce by rule 31
+	SET	reduce by rule 31
+	THEN	reduce by rule 31
+	DO	reduce by rule 31
 
 
 	.	error
@@ -93,10 +287,10 @@ state 5:
 
 state 6:
 
-	DeclarationSeq : Declaration .  (reduce by rule 4)
+	DeclarationSeq : Declaration .  (reduce by rule 3)
 
-	VARI	reduce by rule 4
-	LBR	reduce by rule 4
+	VARI	reduce by rule 3
+	LBR	reduce by rule 3
 
 
 	.	error
@@ -104,9 +298,9 @@ state 6:
 
 state 7:
 
-	Block : CommandSeqa .  (reduce by rule 3)
+	Block : CommandSeqa .  (reduce by rule 2)
 
-	EOF	reduce by rule 3
+	EOF	reduce by rule 2
 
 
 	.	error
@@ -169,10 +363,10 @@ state 11:
 
 state 12:
 
-	DeclarationSeq : DeclarationSeq Declaration .  (reduce by rule 5)
+	DeclarationSeq : DeclarationSeq Declaration .  (reduce by rule 4)
 
-	VARI	reduce by rule 5
-	LBR	reduce by rule 5
+	VARI	reduce by rule 4
+	LBR	reduce by rule 4
 
 
 	.	error
@@ -180,9 +374,9 @@ state 12:
 
 state 13:
 
-	Block : DeclarationSeq CommandSeqa .  (reduce by rule 2)
+	Block : DeclarationSeq CommandSeqa .  (reduce by rule 1)
 
-	EOF	reduce by rule 2
+	EOF	reduce by rule 1
 
 
 	.	error
@@ -300,12 +494,12 @@ state 20:
 
 state 21:
 
-	CommandSeqa : LBR RBR .  (reduce by rule 7)
+	CommandSeqa : LBR RBR .  (reduce by rule 8)
 
-	EOF	reduce by rule 7
-	ELSE	reduce by rule 7
-	ENDIF	reduce by rule 7
-	ENDWH	reduce by rule 7
+	EOF	reduce by rule 8
+	ELSE	reduce by rule 8
+	ENDIF	reduce by rule 8
+	ENDWH	reduce by rule 8
 
 
 	.	error
@@ -323,11 +517,11 @@ state 22:
 
 state 23:
 
-	VariableList : Var .  (reduce by rule 16)
+	VariableList : Var .  (reduce by rule 6)
 	VariableList : Var . COMMA VariableList 
 
 	COMMA	shift 48
-	COLON	reduce by rule 16
+	COLON	reduce by rule 6
 
 
 	.	error
@@ -335,11 +529,11 @@ state 23:
 
 state 24:
 
-	CommandSeq : Command SCOLON .  (reduce by rule 9)
+	CommandSeq : Command SCOLON .  (reduce by rule 10)
 	CommandSeq : Command SCOLON . CommandSeq 
 
 	VAR	shift 4
-	RBR	reduce by rule 9
+	RBR	reduce by rule 10
 	READ	shift 20
 	WRITE	shift 19
 	IF	shift 18
@@ -354,12 +548,12 @@ state 24:
 
 state 25:
 
-	CommandSeqa : LBR CommandSeq RBR .  (reduce by rule 8)
+	CommandSeqa : LBR CommandSeq RBR .  (reduce by rule 9)
 
-	EOF	reduce by rule 8
-	ELSE	reduce by rule 8
-	ENDIF	reduce by rule 8
-	ENDWH	reduce by rule 8
+	EOF	reduce by rule 9
+	ELSE	reduce by rule 9
+	ENDIF	reduce by rule 9
+	ENDWH	reduce by rule 9
 
 
 	.	error
@@ -393,51 +587,41 @@ state 26:
 
 state 27:
 
-	Bfactor : Comparison .  (reduce by rule 39)
+	Bfactor : Comparison .  (reduce by rule 38)
 
-	AND	reduce by rule 39
-	OR	reduce by rule 39
-	RPAREN	reduce by rule 39
-	SCOLON	reduce by rule 39
-	THEN	reduce by rule 39
-	DO	reduce by rule 39
-
-
-	.	error
-
-error:  state 28: reduce/reduce conflict between rule 28 and rule 38 on SCOLON
-error:  state 28: reduce/reduce conflict between rule 28 and rule 38 on RPAREN
-
-state 28:
-
-	Bfactor : Var .  (reduce by rule 38)
-	Factor : Var .  (reduce by rule 28)
-
-	PLUS	reduce by rule 28
-	MINUS	reduce by rule 28
-	TIMES	reduce by rule 28
-	DIV	reduce by rule 28
-	MOD	reduce by rule 28
 	AND	reduce by rule 38
 	OR	reduce by rule 38
-	LT	reduce by rule 28
-	LEQ	reduce by rule 28
-	GT	reduce by rule 28
-	GEQ	reduce by rule 28
-	EQ	reduce by rule 28
-	NEQ	reduce by rule 28
-	RPAREN	reduce by rule 28
-	SCOLON	reduce by rule 28
+	LT	reduce by rule 38
+	LEQ	reduce by rule 38
+	GT	reduce by rule 38
+	GEQ	reduce by rule 38
+	EQ	reduce by rule 38
+	NEQ	reduce by rule 38
+	RPAREN	reduce by rule 38
+	SCOLON	reduce by rule 38
 	THEN	reduce by rule 38
 	DO	reduce by rule 38
 
 
 	.	error
 
+error:  state 28: reduce/reduce conflict between rule 27 and rule 37 on DO
+error:  state 28: reduce/reduce conflict between rule 27 and rule 37 on THEN
+error:  state 28: reduce/reduce conflict between rule 27 and rule 37 on SCOLON
+error:  state 28: reduce/reduce conflict between rule 27 and rule 37 on RPAREN
+error:  state 28: reduce/reduce conflict between rule 27 and rule 37 on NEQ
+error:  state 28: reduce/reduce conflict between rule 27 and rule 37 on EQ
+error:  state 28: reduce/reduce conflict between rule 27 and rule 37 on GEQ
+error:  state 28: reduce/reduce conflict between rule 27 and rule 37 on GT
+error:  state 28: reduce/reduce conflict between rule 27 and rule 37 on LEQ
+error:  state 28: reduce/reduce conflict between rule 27 and rule 37 on LT
+error:  state 28: reduce/reduce conflict between rule 27 and rule 37 on OR
+error:  state 28: reduce/reduce conflict between rule 27 and rule 37 on AND
 
-state 29:
+state 28:
 
-	Factor : Unit .  (reduce by rule 27)
+	Bfactor : Var .  (reduce by rule 37)
+	Factor : Var .  (reduce by rule 27)
 
 	PLUS	reduce by rule 27
 	MINUS	reduce by rule 27
@@ -461,27 +645,53 @@ state 29:
 	.	error
 
 
+state 29:
+
+	Factor : Unit .  (reduce by rule 26)
+
+	PLUS	reduce by rule 26
+	MINUS	reduce by rule 26
+	TIMES	reduce by rule 26
+	DIV	reduce by rule 26
+	MOD	reduce by rule 26
+	AND	reduce by rule 26
+	OR	reduce by rule 26
+	LT	reduce by rule 26
+	LEQ	reduce by rule 26
+	GT	reduce by rule 26
+	GEQ	reduce by rule 26
+	EQ	reduce by rule 26
+	NEQ	reduce by rule 26
+	RPAREN	reduce by rule 26
+	SCOLON	reduce by rule 26
+	THEN	reduce by rule 26
+	DO	reduce by rule 26
+
+
+	.	error
+
+
 state 30:
 
-	Term : Factor .  (reduce by rule 23)
+	Term : Factor .  (reduce by rule 22)
 
-	PLUS	reduce by rule 23
-	MINUS	reduce by rule 23
-	TIMES	reduce by rule 23
-	DIV	reduce by rule 23
-	MOD	reduce by rule 23
-	AND	reduce by rule 23
-	OR	reduce by rule 23
-	LT	reduce by rule 23
-	LEQ	reduce by rule 23
-	GT	reduce by rule 23
-	GEQ	reduce by rule 23
-	EQ	reduce by rule 23
-	NEQ	reduce by rule 23
-	RPAREN	reduce by rule 23
-	SCOLON	reduce by rule 23
-	THEN	reduce by rule 23
-	DO	reduce by rule 23
+	PLUS	reduce by rule 22
+	MINUS	reduce by rule 22
+	TIMES	reduce by rule 22
+	DIV	reduce by rule 22
+	MOD	reduce by rule 22
+	AND	reduce by rule 22
+	OR	reduce by rule 22
+	LT	reduce by rule 22
+	LEQ	reduce by rule 22
+	GT	reduce by rule 22
+	GEQ	reduce by rule 22
+	EQ	reduce by rule 22
+	NEQ	reduce by rule 22
+	RPAREN	reduce by rule 22
+	SCOLON	reduce by rule 22
+	THEN	reduce by rule 22
+	DO	reduce by rule 22
 
 
 	.	error
@@ -489,28 +699,28 @@ state 30:
 
 state 31:
 
-	intexp : Term .  (reduce by rule 20)
+	intexp : Term .  (reduce by rule 19)
 	Term : Term . TIMES Factor 
 	Term : Term . DIV Factor 
 	Term : Term . MOD Factor 
 
-	PLUS	reduce by rule 20
-	MINUS	reduce by rule 20
+	PLUS	reduce by rule 19
+	MINUS	reduce by rule 19
 	TIMES	shift 55
 	DIV	shift 54
 	MOD	shift 53
-	AND	reduce by rule 20
-	OR	reduce by rule 20
-	LT	reduce by rule 20
-	LEQ	reduce by rule 20
-	GT	reduce by rule 20
-	GEQ	reduce by rule 20
-	EQ	reduce by rule 20
-	NEQ	reduce by rule 20
-	RPAREN	reduce by rule 20
-	SCOLON	reduce by rule 20
-	THEN	reduce by rule 20
-	DO	reduce by rule 20
+	AND	reduce by rule 19
+	OR	reduce by rule 19
+	LT	reduce by rule 19
+	LEQ	reduce by rule 19
+	GT	reduce by rule 19
+	GEQ	reduce by rule 19
+	EQ	reduce by rule 19
+	NEQ	reduce by rule 19
+	RPAREN	reduce by rule 19
+	SCOLON	reduce by rule 19
+	THEN	reduce by rule 19
+	DO	reduce by rule 19
 
 
 	.	error
@@ -518,14 +728,20 @@ state 31:
 
 state 32:
 
-	Bfactor : BUnit .  (reduce by rule 37)
+	Bfactor : BUnit .  (reduce by rule 36)
 
-	AND	reduce by rule 37
-	OR	reduce by rule 37
-	RPAREN	reduce by rule 37
-	SCOLON	reduce by rule 37
-	THEN	reduce by rule 37
-	DO	reduce by rule 37
+	AND	reduce by rule 36
+	OR	reduce by rule 36
+	LT	reduce by rule 36
+	LEQ	reduce by rule 36
+	GT	reduce by rule 36
+	GEQ	reduce by rule 36
+	EQ	reduce by rule 36
+	NEQ	reduce by rule 36
+	RPAREN	reduce by rule 36
+	SCOLON	reduce by rule 36
+	THEN	reduce by rule 36
+	DO	reduce by rule 36
 
 
 	.	error
@@ -533,30 +749,43 @@ state 32:
 
 state 33:
 
-	BTerm : Bfactor .  (reduce by rule 35)
+	BTerm : Bfactor .  (reduce by rule 34)
 
-	AND	reduce by rule 35
-	OR	reduce by rule 35
-	RPAREN	reduce by rule 35
-	SCOLON	reduce by rule 35
-	THEN	reduce by rule 35
-	DO	reduce by rule 35
+	AND	reduce by rule 34
+	OR	reduce by rule 34
+	LT	reduce by rule 34
+	LEQ	reduce by rule 34
+	GT	reduce by rule 34
+	GEQ	reduce by rule 34
+	EQ	reduce by rule 34
+	NEQ	reduce by rule 34
+	RPAREN	reduce by rule 34
+	SCOLON	reduce by rule 34
+	THEN	reduce by rule 34
+	DO	reduce by rule 34
 
 
 	.	error
 
+error:  state 34: shift/reduce conflict (shift AND, reduce by rule 32)
 
 state 34:
 
-	boolexp : BTerm .  (reduce by rule 33)
+	boolexp : BTerm .  (reduce by rule 32)
 	BTerm : BTerm . AND Bfactor 
 
 	AND	shift 56
-	OR	reduce by rule 33
-	RPAREN	reduce by rule 33
-	SCOLON	reduce by rule 33
-	THEN	reduce by rule 33
-	DO	reduce by rule 33
+	OR	reduce by rule 32
+	LT	reduce by rule 32
+	LEQ	reduce by rule 32
+	GT	reduce by rule 32
+	GEQ	reduce by rule 32
+	EQ	reduce by rule 32
+	NEQ	reduce by rule 32
+	RPAREN	reduce by rule 32
+	SCOLON	reduce by rule 32
+	THEN	reduce by rule 32
+	DO	reduce by rule 32
 
 
 	.	error
@@ -565,9 +794,27 @@ state 34:
 state 35:
 
 	boolexp : boolexp . OR BTerm 
+	Comparison : boolexp . LT boolexp 
+	Comparison : boolexp . GT boolexp 
+	Comparison : boolexp . LEQ boolexp 
+	Comparison : boolexp . GEQ boolexp 
+	Comparison : boolexp . EQ boolexp 
+	Comparison : boolexp . NEQ boolexp 
+	Comparison : boolexp . LT intexp 
+	Comparison : boolexp . GT intexp 
+	Comparison : boolexp . LEQ intexp 
+	Comparison : boolexp . GEQ intexp 
+	Comparison : boolexp . EQ intexp 
+	Comparison : boolexp . NEQ intexp 
 	Command : WHILE boolexp . DO CommandSeqa ENDWH 
 
-	OR	shift 58
+	OR	shift 64
+	LT	shift 63
+	LEQ	shift 62
+	GT	shift 61
+	GEQ	shift 60
+	EQ	shift 59
+	NEQ	shift 58
 	DO	shift 57
 
 
@@ -584,15 +831,21 @@ state 36:
 	Comparison : intexp . GEQ intexp 
 	Comparison : intexp . EQ intexp 
 	Comparison : intexp . NEQ intexp 
+	Comparison : intexp . LT boolexp 
+	Comparison : intexp . GT boolexp 
+	Comparison : intexp . LEQ boolexp 
+	Comparison : intexp . GEQ boolexp 
+	Comparison : intexp . EQ boolexp 
+	Comparison : intexp . NEQ boolexp 
 
-	PLUS	shift 66
-	MINUS	shift 65
-	LT	shift 64
-	LEQ	shift 63
-	GT	shift 62
-	GEQ	shift 61
-	EQ	shift 60
-	NEQ	shift 59
+	PLUS	shift 72
+	MINUS	shift 71
+	LT	shift 70
+	LEQ	shift 69
+	GT	shift 68
+	GEQ	shift 67
+	EQ	shift 66
+	NEQ	shift 65
 
 
 	.	error
@@ -607,7 +860,7 @@ state 37:
 	VAR	shift 4
 	TELDA	shift 37
 
-	Factor	goto 67
+	Factor	goto 73
 	Unit	goto 29
 	Var	goto 43
 
@@ -626,8 +879,8 @@ state 38:
 	VAR	shift 4
 	TELDA	shift 37
 
-	intexp	goto 69
-	boolexp	goto 68
+	intexp	goto 75
+	boolexp	goto 74
 	BTerm	goto 34
 	Bfactor	goto 33
 	BUnit	goto 32
@@ -652,7 +905,9 @@ state 39:
 	TELDA	shift 37
 
 	intexp	goto 36
-	Bfactor	goto 70
+	boolexp	goto 77
+	BTerm	goto 34
+	Bfactor	goto 76
 	BUnit	goto 32
 	Term	goto 31
 	Factor	goto 30
@@ -665,14 +920,20 @@ state 39:
 
 state 40:
 
-	BUnit : BOOL .  (reduce by rule 48)
+	BUnit : BOOL .  (reduce by rule 65)
 
-	AND	reduce by rule 48
-	OR	reduce by rule 48
-	RPAREN	reduce by rule 48
-	SCOLON	reduce by rule 48
-	THEN	reduce by rule 48
-	DO	reduce by rule 48
+	AND	reduce by rule 65
+	OR	reduce by rule 65
+	LT	reduce by rule 65
+	LEQ	reduce by rule 65
+	GT	reduce by rule 65
+	GEQ	reduce by rule 65
+	EQ	reduce by rule 65
+	NEQ	reduce by rule 65
+	RPAREN	reduce by rule 65
+	SCOLON	reduce by rule 65
+	THEN	reduce by rule 65
+	DO	reduce by rule 65
 
 
 	.	error
@@ -680,25 +941,25 @@ state 40:
 
 state 41:
 
-	Unit : INT .  (reduce by rule 31)
+	Unit : INT .  (reduce by rule 30)
 
-	PLUS	reduce by rule 31
-	MINUS	reduce by rule 31
-	TIMES	reduce by rule 31
-	DIV	reduce by rule 31
-	MOD	reduce by rule 31
-	AND	reduce by rule 31
-	OR	reduce by rule 31
-	LT	reduce by rule 31
-	LEQ	reduce by rule 31
-	GT	reduce by rule 31
-	GEQ	reduce by rule 31
-	EQ	reduce by rule 31
-	NEQ	reduce by rule 31
-	RPAREN	reduce by rule 31
-	SCOLON	reduce by rule 31
-	THEN	reduce by rule 31
-	DO	reduce by rule 31
+	PLUS	reduce by rule 30
+	MINUS	reduce by rule 30
+	TIMES	reduce by rule 30
+	DIV	reduce by rule 30
+	MOD	reduce by rule 30
+	AND	reduce by rule 30
+	OR	reduce by rule 30
+	LT	reduce by rule 30
+	LEQ	reduce by rule 30
+	GT	reduce by rule 30
+	GEQ	reduce by rule 30
+	EQ	reduce by rule 30
+	NEQ	reduce by rule 30
+	RPAREN	reduce by rule 30
+	SCOLON	reduce by rule 30
+	THEN	reduce by rule 30
+	DO	reduce by rule 30
 
 
 	.	error
@@ -707,10 +968,28 @@ state 41:
 state 42:
 
 	boolexp : boolexp . OR BTerm 
+	Comparison : boolexp . LT boolexp 
+	Comparison : boolexp . GT boolexp 
+	Comparison : boolexp . LEQ boolexp 
+	Comparison : boolexp . GEQ boolexp 
+	Comparison : boolexp . EQ boolexp 
+	Comparison : boolexp . NEQ boolexp 
+	Comparison : boolexp . LT intexp 
+	Comparison : boolexp . GT intexp 
+	Comparison : boolexp . LEQ intexp 
+	Comparison : boolexp . GEQ intexp 
+	Comparison : boolexp . EQ intexp 
+	Comparison : boolexp . NEQ intexp 
 	Command : IF boolexp . THEN CommandSeqa ELSE CommandSeqa ENDIF 
 
-	OR	shift 58
-	THEN	shift 71
+	OR	shift 64
+	LT	shift 63
+	LEQ	shift 62
+	GT	shift 61
+	GEQ	shift 60
+	EQ	shift 59
+	NEQ	shift 58
+	THEN	shift 78
 
 
 	.	error
@@ -718,7 +997,634 @@ state 42:
 
 state 43:
 
-	Factor : Var .  (reduce by rule 28)
+	Factor : Var .  (reduce by rule 27)
+
+	PLUS	reduce by rule 27
+	MINUS	reduce by rule 27
+	TIMES	reduce by rule 27
+	DIV	reduce by rule 27
+	MOD	reduce by rule 27
+	AND	reduce by rule 27
+	OR	reduce by rule 27
+	LT	reduce by rule 27
+	LEQ	reduce by rule 27
+	GT	reduce by rule 27
+	GEQ	reduce by rule 27
+	EQ	reduce by rule 27
+	NEQ	reduce by rule 27
+	RPAREN	reduce by rule 27
+	SCOLON	reduce by rule 27
+	THEN	reduce by rule 27
+	DO	reduce by rule 27
+
+
+	.	error
+
+
+state 44:
+
+	intexp : intexp . PLUS Term 
+	intexp : intexp . MINUS Term 
+	Command : WRITE intexp .  (reduce by rule 14)
+
+	PLUS	shift 72
+	MINUS	shift 71
+	SCOLON	reduce by rule 14
+
+
+	.	error
+
+
+state 45:
+
+	Factor : LPAREN . intexp RPAREN 
+
+	INT	shift 41
+	LPAREN	shift 45
+	VAR	shift 4
+	TELDA	shift 37
+
+	intexp	goto 79
+	Term	goto 31
+	Factor	goto 30
+	Unit	goto 29
+	Var	goto 43
+
+	.	error
+
+
+state 46:
+
+	Command : READ Var .  (reduce by rule 13)
+
+	SCOLON	reduce by rule 13
+
+
+	.	error
+
+
+state 47:
+
+	Declaration : VARI VariableList COLON . TYPE SCOLON 
+
+	TYPE	shift 80
+
+
+	.	error
+
+
+state 48:
+
+	VariableList : Var COMMA . VariableList 
+
+	VAR	shift 4
+
+	Var	goto 23
+	VariableList	goto 81
+
+	.	error
+
+
+state 49:
+
+	CommandSeq : Command SCOLON CommandSeq .  (reduce by rule 11)
+
+	RBR	reduce by rule 11
+
+
+	.	error
+
+
+state 50:
+
+	Exp : boolexp .  (reduce by rule 18)
+	boolexp : boolexp . OR BTerm 
+	Comparison : boolexp . LT boolexp 
+	Comparison : boolexp . GT boolexp 
+	Comparison : boolexp . LEQ boolexp 
+	Comparison : boolexp . GEQ boolexp 
+	Comparison : boolexp . EQ boolexp 
+	Comparison : boolexp . NEQ boolexp 
+	Comparison : boolexp . LT intexp 
+	Comparison : boolexp . GT intexp 
+	Comparison : boolexp . LEQ intexp 
+	Comparison : boolexp . GEQ intexp 
+	Comparison : boolexp . EQ intexp 
+	Comparison : boolexp . NEQ intexp 
+
+	OR	shift 64
+	LT	shift 63
+	LEQ	shift 62
+	GT	shift 61
+	GEQ	shift 60
+	EQ	shift 59
+	NEQ	shift 58
+	SCOLON	reduce by rule 18
+
+
+	.	error
+
+
+state 51:
+
+	Exp : intexp .  (reduce by rule 17)
+	intexp : intexp . PLUS Term 
+	intexp : intexp . MINUS Term 
+	Comparison : intexp . LT intexp 
+	Comparison : intexp . GT intexp 
+	Comparison : intexp . LEQ intexp 
+	Comparison : intexp . GEQ intexp 
+	Comparison : intexp . EQ intexp 
+	Comparison : intexp . NEQ intexp 
+	Comparison : intexp . LT boolexp 
+	Comparison : intexp . GT boolexp 
+	Comparison : intexp . LEQ boolexp 
+	Comparison : intexp . GEQ boolexp 
+	Comparison : intexp . EQ boolexp 
+	Comparison : intexp . NEQ boolexp 
+
+	PLUS	shift 72
+	MINUS	shift 71
+	LT	shift 70
+	LEQ	shift 69
+	GT	shift 68
+	GEQ	shift 67
+	EQ	shift 66
+	NEQ	shift 65
+	SCOLON	reduce by rule 17
+
+
+	.	error
+
+
+state 52:
+
+	Command : Var SET Exp .  (reduce by rule 12)
+
+	SCOLON	reduce by rule 12
+
+
+	.	error
+
+
+state 53:
+
+	Term : Term MOD . Factor 
+
+	INT	shift 41
+	LPAREN	shift 45
+	VAR	shift 4
+	TELDA	shift 37
+
+	Factor	goto 82
+	Unit	goto 29
+	Var	goto 43
+
+	.	error
+
+
+state 54:
+
+	Term : Term DIV . Factor 
+
+	INT	shift 41
+	LPAREN	shift 45
+	VAR	shift 4
+	TELDA	shift 37
+
+	Factor	goto 83
+	Unit	goto 29
+	Var	goto 43
+
+	.	error
+
+
+state 55:
+
+	Term : Term TIMES . Factor 
+
+	INT	shift 41
+	LPAREN	shift 45
+	VAR	shift 4
+	TELDA	shift 37
+
+	Factor	goto 84
+	Unit	goto 29
+	Var	goto 43
+
+	.	error
+
+
+state 56:
+
+	BTerm : BTerm AND . Bfactor 
+
+	INT	shift 41
+	BOOL	shift 40
+	NOT	shift 39
+	LPAREN	shift 38
+	VAR	shift 4
+	TELDA	shift 37
+
+	intexp	goto 36
+	boolexp	goto 77
+	BTerm	goto 34
+	Bfactor	goto 85
+	BUnit	goto 32
+	Term	goto 31
+	Factor	goto 30
+	Unit	goto 29
+	Var	goto 28
+	Comparison	goto 27
+
+	.	error
+
+
+state 57:
+
+	Command : WHILE boolexp DO . CommandSeqa ENDWH 
+
+	LBR	shift 10
+
+	CommandSeqa	goto 86
+
+	.	error
+
+
+state 58:
+
+	Comparison : boolexp NEQ . boolexp 
+	Comparison : boolexp NEQ . intexp 
+
+	INT	shift 41
+	BOOL	shift 40
+	NOT	shift 39
+	LPAREN	shift 38
+	VAR	shift 4
+	TELDA	shift 37
+
+	intexp	goto 88
+	boolexp	goto 87
+	BTerm	goto 34
+	Bfactor	goto 33
+	BUnit	goto 32
+	Term	goto 31
+	Factor	goto 30
+	Unit	goto 29
+	Var	goto 28
+	Comparison	goto 27
+
+	.	error
+
+
+state 59:
+
+	Comparison : boolexp EQ . boolexp 
+	Comparison : boolexp EQ . intexp 
+
+	INT	shift 41
+	BOOL	shift 40
+	NOT	shift 39
+	LPAREN	shift 38
+	VAR	shift 4
+	TELDA	shift 37
+
+	intexp	goto 90
+	boolexp	goto 89
+	BTerm	goto 34
+	Bfactor	goto 33
+	BUnit	goto 32
+	Term	goto 31
+	Factor	goto 30
+	Unit	goto 29
+	Var	goto 28
+	Comparison	goto 27
+
+	.	error
+
+
+state 60:
+
+	Comparison : boolexp GEQ . boolexp 
+	Comparison : boolexp GEQ . intexp 
+
+	INT	shift 41
+	BOOL	shift 40
+	NOT	shift 39
+	LPAREN	shift 38
+	VAR	shift 4
+	TELDA	shift 37
+
+	intexp	goto 92
+	boolexp	goto 91
+	BTerm	goto 34
+	Bfactor	goto 33
+	BUnit	goto 32
+	Term	goto 31
+	Factor	goto 30
+	Unit	goto 29
+	Var	goto 28
+	Comparison	goto 27
+
+	.	error
+
+
+state 61:
+
+	Comparison : boolexp GT . boolexp 
+	Comparison : boolexp GT . intexp 
+
+	INT	shift 41
+	BOOL	shift 40
+	NOT	shift 39
+	LPAREN	shift 38
+	VAR	shift 4
+	TELDA	shift 37
+
+	intexp	goto 94
+	boolexp	goto 93
+	BTerm	goto 34
+	Bfactor	goto 33
+	BUnit	goto 32
+	Term	goto 31
+	Factor	goto 30
+	Unit	goto 29
+	Var	goto 28
+	Comparison	goto 27
+
+	.	error
+
+
+state 62:
+
+	Comparison : boolexp LEQ . boolexp 
+	Comparison : boolexp LEQ . intexp 
+
+	INT	shift 41
+	BOOL	shift 40
+	NOT	shift 39
+	LPAREN	shift 38
+	VAR	shift 4
+	TELDA	shift 37
+
+	intexp	goto 96
+	boolexp	goto 95
+	BTerm	goto 34
+	Bfactor	goto 33
+	BUnit	goto 32
+	Term	goto 31
+	Factor	goto 30
+	Unit	goto 29
+	Var	goto 28
+	Comparison	goto 27
+
+	.	error
+
+
+state 63:
+
+	Comparison : boolexp LT . boolexp 
+	Comparison : boolexp LT . intexp 
+
+	INT	shift 41
+	BOOL	shift 40
+	NOT	shift 39
+	LPAREN	shift 38
+	VAR	shift 4
+	TELDA	shift 37
+
+	intexp	goto 98
+	boolexp	goto 97
+	BTerm	goto 34
+	Bfactor	goto 33
+	BUnit	goto 32
+	Term	goto 31
+	Factor	goto 30
+	Unit	goto 29
+	Var	goto 28
+	Comparison	goto 27
+
+	.	error
+
+
+state 64:
+
+	boolexp : boolexp OR . BTerm 
+
+	INT	shift 41
+	BOOL	shift 40
+	NOT	shift 39
+	LPAREN	shift 38
+	VAR	shift 4
+	TELDA	shift 37
+
+	intexp	goto 36
+	boolexp	goto 77
+	BTerm	goto 99
+	Bfactor	goto 33
+	BUnit	goto 32
+	Term	goto 31
+	Factor	goto 30
+	Unit	goto 29
+	Var	goto 28
+	Comparison	goto 27
+
+	.	error
+
+
+state 65:
+
+	Comparison : intexp NEQ . intexp 
+	Comparison : intexp NEQ . boolexp 
+
+	INT	shift 41
+	BOOL	shift 40
+	NOT	shift 39
+	LPAREN	shift 38
+	VAR	shift 4
+	TELDA	shift 37
+
+	intexp	goto 101
+	boolexp	goto 100
+	BTerm	goto 34
+	Bfactor	goto 33
+	BUnit	goto 32
+	Term	goto 31
+	Factor	goto 30
+	Unit	goto 29
+	Var	goto 28
+	Comparison	goto 27
+
+	.	error
+
+
+state 66:
+
+	Comparison : intexp EQ . intexp 
+	Comparison : intexp EQ . boolexp 
+
+	INT	shift 41
+	BOOL	shift 40
+	NOT	shift 39
+	LPAREN	shift 38
+	VAR	shift 4
+	TELDA	shift 37
+
+	intexp	goto 103
+	boolexp	goto 102
+	BTerm	goto 34
+	Bfactor	goto 33
+	BUnit	goto 32
+	Term	goto 31
+	Factor	goto 30
+	Unit	goto 29
+	Var	goto 28
+	Comparison	goto 27
+
+	.	error
+
+
+state 67:
+
+	Comparison : intexp GEQ . intexp 
+	Comparison : intexp GEQ . boolexp 
+
+	INT	shift 41
+	BOOL	shift 40
+	NOT	shift 39
+	LPAREN	shift 38
+	VAR	shift 4
+	TELDA	shift 37
+
+	intexp	goto 105
+	boolexp	goto 104
+	BTerm	goto 34
+	Bfactor	goto 33
+	BUnit	goto 32
+	Term	goto 31
+	Factor	goto 30
+	Unit	goto 29
+	Var	goto 28
+	Comparison	goto 27
+
+	.	error
+
+
+state 68:
+
+	Comparison : intexp GT . intexp 
+	Comparison : intexp GT . boolexp 
+
+	INT	shift 41
+	BOOL	shift 40
+	NOT	shift 39
+	LPAREN	shift 38
+	VAR	shift 4
+	TELDA	shift 37
+
+	intexp	goto 107
+	boolexp	goto 106
+	BTerm	goto 34
+	Bfactor	goto 33
+	BUnit	goto 32
+	Term	goto 31
+	Factor	goto 30
+	Unit	goto 29
+	Var	goto 28
+	Comparison	goto 27
+
+	.	error
+
+
+state 69:
+
+	Comparison : intexp LEQ . intexp 
+	Comparison : intexp LEQ . boolexp 
+
+	INT	shift 41
+	BOOL	shift 40
+	NOT	shift 39
+	LPAREN	shift 38
+	VAR	shift 4
+	TELDA	shift 37
+
+	intexp	goto 109
+	boolexp	goto 108
+	BTerm	goto 34
+	Bfactor	goto 33
+	BUnit	goto 32
+	Term	goto 31
+	Factor	goto 30
+	Unit	goto 29
+	Var	goto 28
+	Comparison	goto 27
+
+	.	error
+
+
+state 70:
+
+	Comparison : intexp LT . intexp 
+	Comparison : intexp LT . boolexp 
+
+	INT	shift 41
+	BOOL	shift 40
+	NOT	shift 39
+	LPAREN	shift 38
+	VAR	shift 4
+	TELDA	shift 37
+
+	intexp	goto 111
+	boolexp	goto 110
+	BTerm	goto 34
+	Bfactor	goto 33
+	BUnit	goto 32
+	Term	goto 31
+	Factor	goto 30
+	Unit	goto 29
+	Var	goto 28
+	Comparison	goto 27
+
+	.	error
+
+
+state 71:
+
+	intexp : intexp MINUS . Term 
+
+	INT	shift 41
+	LPAREN	shift 45
+	VAR	shift 4
+	TELDA	shift 37
+
+	Term	goto 112
+	Factor	goto 30
+	Unit	goto 29
+	Var	goto 43
+
+	.	error
+
+
+state 72:
+
+	intexp : intexp PLUS . Term 
+
+	INT	shift 41
+	LPAREN	shift 45
+	VAR	shift 4
+	TELDA	shift 37
+
+	Term	goto 113
+	Factor	goto 30
+	Unit	goto 29
+	Var	goto 43
+
+	.	error
+
+
+state 73:
+
+	Factor : TELDA Factor .  (reduce by rule 28)
 
 	PLUS	reduce by rule 28
 	MINUS	reduce by rule 28
@@ -742,495 +1648,31 @@ state 43:
 	.	error
 
 
-state 44:
-
-	intexp : intexp . PLUS Term 
-	intexp : intexp . MINUS Term 
-	Command : WRITE intexp .  (reduce by rule 13)
-
-	PLUS	shift 66
-	MINUS	shift 65
-	SCOLON	reduce by rule 13
-
-
-	.	error
-
-
-state 45:
-
-	Factor : LPAREN . intexp RPAREN 
-
-	INT	shift 41
-	LPAREN	shift 45
-	VAR	shift 4
-	TELDA	shift 37
-
-	intexp	goto 72
-	Term	goto 31
-	Factor	goto 30
-	Unit	goto 29
-	Var	goto 43
-
-	.	error
-
-
-state 46:
-
-	Command : READ Var .  (reduce by rule 12)
-
-	SCOLON	reduce by rule 12
-
-
-	.	error
-
-
-state 47:
-
-	Declaration : VARI VariableList COLON . TYPE SCOLON 
-
-	TYPE	shift 73
-
-
-	.	error
-
-
-state 48:
-
-	VariableList : Var COMMA . VariableList 
-
-	VAR	shift 4
-
-	Var	goto 23
-	VariableList	goto 74
-
-	.	error
-
-
-state 49:
-
-	CommandSeq : Command SCOLON CommandSeq .  (reduce by rule 10)
-
-	RBR	reduce by rule 10
-
-
-	.	error
-
-
-state 50:
-
-	Exp : boolexp .  (reduce by rule 19)
-	boolexp : boolexp . OR BTerm 
-
-	OR	shift 58
-	SCOLON	reduce by rule 19
-
-
-	.	error
-
-
-state 51:
-
-	Exp : intexp .  (reduce by rule 18)
-	intexp : intexp . PLUS Term 
-	intexp : intexp . MINUS Term 
-	Comparison : intexp . LT intexp 
-	Comparison : intexp . GT intexp 
-	Comparison : intexp . LEQ intexp 
-	Comparison : intexp . GEQ intexp 
-	Comparison : intexp . EQ intexp 
-	Comparison : intexp . NEQ intexp 
-
-	PLUS	shift 66
-	MINUS	shift 65
-	LT	shift 64
-	LEQ	shift 63
-	GT	shift 62
-	GEQ	shift 61
-	EQ	shift 60
-	NEQ	shift 59
-	SCOLON	reduce by rule 18
-
-
-	.	error
-
-
-state 52:
-
-	Command : Var SET Exp .  (reduce by rule 11)
-
-	SCOLON	reduce by rule 11
-
-
-	.	error
-
-
-state 53:
-
-	Term : Term MOD . Factor 
-
-	INT	shift 41
-	LPAREN	shift 45
-	VAR	shift 4
-	TELDA	shift 37
-
-	Factor	goto 75
-	Unit	goto 29
-	Var	goto 43
-
-	.	error
-
-
-state 54:
-
-	Term : Term DIV . Factor 
-
-	INT	shift 41
-	LPAREN	shift 45
-	VAR	shift 4
-	TELDA	shift 37
-
-	Factor	goto 76
-	Unit	goto 29
-	Var	goto 43
-
-	.	error
-
-
-state 55:
-
-	Term : Term TIMES . Factor 
-
-	INT	shift 41
-	LPAREN	shift 45
-	VAR	shift 4
-	TELDA	shift 37
-
-	Factor	goto 77
-	Unit	goto 29
-	Var	goto 43
-
-	.	error
-
-
-state 56:
-
-	BTerm : BTerm AND . Bfactor 
-
-	INT	shift 41
-	BOOL	shift 40
-	NOT	shift 39
-	LPAREN	shift 38
-	VAR	shift 4
-	TELDA	shift 37
-
-	intexp	goto 36
-	Bfactor	goto 78
-	BUnit	goto 32
-	Term	goto 31
-	Factor	goto 30
-	Unit	goto 29
-	Var	goto 28
-	Comparison	goto 27
-
-	.	error
-
-
-state 57:
-
-	Command : WHILE boolexp DO . CommandSeqa ENDWH 
-
-	LBR	shift 10
-
-	CommandSeqa	goto 79
-
-	.	error
-
-
-state 58:
-
-	boolexp : boolexp OR . BTerm 
-
-	INT	shift 41
-	BOOL	shift 40
-	NOT	shift 39
-	LPAREN	shift 38
-	VAR	shift 4
-	TELDA	shift 37
-
-	intexp	goto 36
-	BTerm	goto 80
-	Bfactor	goto 33
-	BUnit	goto 32
-	Term	goto 31
-	Factor	goto 30
-	Unit	goto 29
-	Var	goto 28
-	Comparison	goto 27
-
-	.	error
-
-
-state 59:
-
-	Comparison : intexp NEQ . intexp 
-
-	INT	shift 41
-	LPAREN	shift 45
-	VAR	shift 4
-	TELDA	shift 37
-
-	intexp	goto 81
-	Term	goto 31
-	Factor	goto 30
-	Unit	goto 29
-	Var	goto 43
-
-	.	error
-
-
-state 60:
-
-	Comparison : intexp EQ . intexp 
-
-	INT	shift 41
-	LPAREN	shift 45
-	VAR	shift 4
-	TELDA	shift 37
-
-	intexp	goto 82
-	Term	goto 31
-	Factor	goto 30
-	Unit	goto 29
-	Var	goto 43
-
-	.	error
-
-
-state 61:
-
-	Comparison : intexp GEQ . intexp 
-
-	INT	shift 41
-	LPAREN	shift 45
-	VAR	shift 4
-	TELDA	shift 37
-
-	intexp	goto 83
-	Term	goto 31
-	Factor	goto 30
-	Unit	goto 29
-	Var	goto 43
-
-	.	error
-
-
-state 62:
-
-	Comparison : intexp GT . intexp 
-
-	INT	shift 41
-	LPAREN	shift 45
-	VAR	shift 4
-	TELDA	shift 37
-
-	intexp	goto 84
-	Term	goto 31
-	Factor	goto 30
-	Unit	goto 29
-	Var	goto 43
-
-	.	error
-
-
-state 63:
-
-	Comparison : intexp LEQ . intexp 
-
-	INT	shift 41
-	LPAREN	shift 45
-	VAR	shift 4
-	TELDA	shift 37
-
-	intexp	goto 85
-	Term	goto 31
-	Factor	goto 30
-	Unit	goto 29
-	Var	goto 43
-
-	.	error
-
-
-state 64:
-
-	Comparison : intexp LT . intexp 
-
-	INT	shift 41
-	LPAREN	shift 45
-	VAR	shift 4
-	TELDA	shift 37
-
-	intexp	goto 86
-	Term	goto 31
-	Factor	goto 30
-	Unit	goto 29
-	Var	goto 43
-
-	.	error
-
-
-state 65:
-
-	intexp : intexp MINUS . Term 
-
-	INT	shift 41
-	LPAREN	shift 45
-	VAR	shift 4
-	TELDA	shift 37
-
-	Term	goto 87
-	Factor	goto 30
-	Unit	goto 29
-	Var	goto 43
-
-	.	error
-
-
-state 66:
-
-	intexp : intexp PLUS . Term 
-
-	INT	shift 41
-	LPAREN	shift 45
-	VAR	shift 4
-	TELDA	shift 37
-
-	Term	goto 88
-	Factor	goto 30
-	Unit	goto 29
-	Var	goto 43
-
-	.	error
-
-
-state 67:
-
-	Factor : TELDA Factor .  (reduce by rule 29)
-
-	PLUS	reduce by rule 29
-	MINUS	reduce by rule 29
-	TIMES	reduce by rule 29
-	DIV	reduce by rule 29
-	MOD	reduce by rule 29
-	AND	reduce by rule 29
-	OR	reduce by rule 29
-	LT	reduce by rule 29
-	LEQ	reduce by rule 29
-	GT	reduce by rule 29
-	GEQ	reduce by rule 29
-	EQ	reduce by rule 29
-	NEQ	reduce by rule 29
-	RPAREN	reduce by rule 29
-	SCOLON	reduce by rule 29
-	THEN	reduce by rule 29
-	DO	reduce by rule 29
-
-
-	.	error
-
-
-state 68:
+state 74:
 
 	boolexp : boolexp . OR BTerm 
 	Bfactor : LPAREN boolexp . RPAREN 
+	Comparison : boolexp . LT boolexp 
+	Comparison : boolexp . GT boolexp 
+	Comparison : boolexp . LEQ boolexp 
+	Comparison : boolexp . GEQ boolexp 
+	Comparison : boolexp . EQ boolexp 
+	Comparison : boolexp . NEQ boolexp 
+	Comparison : boolexp . LT intexp 
+	Comparison : boolexp . GT intexp 
+	Comparison : boolexp . LEQ intexp 
+	Comparison : boolexp . GEQ intexp 
+	Comparison : boolexp . EQ intexp 
+	Comparison : boolexp . NEQ intexp 
 
-	OR	shift 58
-	RPAREN	shift 89
-
-
-	.	error
-
-
-state 69:
-
-	intexp : intexp . PLUS Term 
-	intexp : intexp . MINUS Term 
-	Factor : LPAREN intexp . RPAREN 
-	Comparison : intexp . LT intexp 
-	Comparison : intexp . GT intexp 
-	Comparison : intexp . LEQ intexp 
-	Comparison : intexp . GEQ intexp 
-	Comparison : intexp . EQ intexp 
-	Comparison : intexp . NEQ intexp 
-
-	PLUS	shift 66
-	MINUS	shift 65
-	LT	shift 64
-	LEQ	shift 63
-	GT	shift 62
-	GEQ	shift 61
-	EQ	shift 60
-	NEQ	shift 59
-	RPAREN	shift 90
-
-
-	.	error
-
-
-state 70:
-
-	Bfactor : NOT Bfactor .  (reduce by rule 40)
-
-	AND	reduce by rule 40
-	OR	reduce by rule 40
-	RPAREN	reduce by rule 40
-	SCOLON	reduce by rule 40
-	THEN	reduce by rule 40
-	DO	reduce by rule 40
-
-
-	.	error
-
-
-state 71:
-
-	Command : IF boolexp THEN . CommandSeqa ELSE CommandSeqa ENDIF 
-
-	LBR	shift 10
-
-	CommandSeqa	goto 91
-
-	.	error
-
-
-state 72:
-
-	intexp : intexp . PLUS Term 
-	intexp : intexp . MINUS Term 
-	Factor : LPAREN intexp . RPAREN 
-
-	PLUS	shift 66
-	MINUS	shift 65
-	RPAREN	shift 90
-
-
-	.	error
-
-
-state 73:
-
-	Declaration : VARI VariableList COLON TYPE . SCOLON 
-
-	SCOLON	shift 92
-
-
-	.	error
-
-
-state 74:
-
-	VariableList : Var COMMA VariableList .  (reduce by rule 17)
-
-	COLON	reduce by rule 17
+	OR	shift 64
+	LT	shift 63
+	LEQ	shift 62
+	GT	shift 61
+	GEQ	shift 60
+	EQ	shift 59
+	NEQ	shift 58
+	RPAREN	shift 114
 
 
 	.	error
@@ -1238,33 +1680,142 @@ state 74:
 
 state 75:
 
-	Term : Term MOD Factor .  (reduce by rule 26)
+	intexp : intexp . PLUS Term 
+	intexp : intexp . MINUS Term 
+	Factor : LPAREN intexp . RPAREN 
+	Comparison : intexp . LT intexp 
+	Comparison : intexp . GT intexp 
+	Comparison : intexp . LEQ intexp 
+	Comparison : intexp . GEQ intexp 
+	Comparison : intexp . EQ intexp 
+	Comparison : intexp . NEQ intexp 
+	Comparison : intexp . LT boolexp 
+	Comparison : intexp . GT boolexp 
+	Comparison : intexp . LEQ boolexp 
+	Comparison : intexp . GEQ boolexp 
+	Comparison : intexp . EQ boolexp 
+	Comparison : intexp . NEQ boolexp 
 
-	PLUS	reduce by rule 26
-	MINUS	reduce by rule 26
-	TIMES	reduce by rule 26
-	DIV	reduce by rule 26
-	MOD	reduce by rule 26
-	AND	reduce by rule 26
-	OR	reduce by rule 26
-	LT	reduce by rule 26
-	LEQ	reduce by rule 26
-	GT	reduce by rule 26
-	GEQ	reduce by rule 26
-	EQ	reduce by rule 26
-	NEQ	reduce by rule 26
-	RPAREN	reduce by rule 26
-	SCOLON	reduce by rule 26
-	THEN	reduce by rule 26
-	DO	reduce by rule 26
+	PLUS	shift 72
+	MINUS	shift 71
+	LT	shift 70
+	LEQ	shift 69
+	GT	shift 68
+	GEQ	shift 67
+	EQ	shift 66
+	NEQ	shift 65
+	RPAREN	shift 115
+
+
+	.	error
+
+error:  state 76: reduce/reduce conflict between rule 39 and rule 34 on NEQ
+error:  state 76: reduce/reduce conflict between rule 39 and rule 34 on EQ
+error:  state 76: reduce/reduce conflict between rule 39 and rule 34 on GEQ
+error:  state 76: reduce/reduce conflict between rule 39 and rule 34 on GT
+error:  state 76: reduce/reduce conflict between rule 39 and rule 34 on LEQ
+error:  state 76: reduce/reduce conflict between rule 39 and rule 34 on LT
+error:  state 76: reduce/reduce conflict between rule 39 and rule 34 on OR
+error:  state 76: reduce/reduce conflict between rule 39 and rule 34 on AND
+
+state 76:
+
+	BTerm : Bfactor .  (reduce by rule 34)
+	Bfactor : NOT Bfactor .  (reduce by rule 39)
+
+	AND	reduce by rule 34
+	OR	reduce by rule 34
+	LT	reduce by rule 34
+	LEQ	reduce by rule 34
+	GT	reduce by rule 34
+	GEQ	reduce by rule 34
+	EQ	reduce by rule 34
+	NEQ	reduce by rule 34
+	RPAREN	reduce by rule 39
+	SCOLON	reduce by rule 39
+	THEN	reduce by rule 39
+	DO	reduce by rule 39
 
 
 	.	error
 
 
-state 76:
+state 77:
 
-	Term : Term DIV Factor .  (reduce by rule 25)
+	boolexp : boolexp . OR BTerm 
+	Comparison : boolexp . LT boolexp 
+	Comparison : boolexp . GT boolexp 
+	Comparison : boolexp . LEQ boolexp 
+	Comparison : boolexp . GEQ boolexp 
+	Comparison : boolexp . EQ boolexp 
+	Comparison : boolexp . NEQ boolexp 
+	Comparison : boolexp . LT intexp 
+	Comparison : boolexp . GT intexp 
+	Comparison : boolexp . LEQ intexp 
+	Comparison : boolexp . GEQ intexp 
+	Comparison : boolexp . EQ intexp 
+	Comparison : boolexp . NEQ intexp 
+
+	OR	shift 64
+	LT	shift 63
+	LEQ	shift 62
+	GT	shift 61
+	GEQ	shift 60
+	EQ	shift 59
+	NEQ	shift 58
+
+
+	.	error
+
+
+state 78:
+
+	Command : IF boolexp THEN . CommandSeqa ELSE CommandSeqa ENDIF 
+
+	LBR	shift 10
+
+	CommandSeqa	goto 116
+
+	.	error
+
+
+state 79:
+
+	intexp : intexp . PLUS Term 
+	intexp : intexp . MINUS Term 
+	Factor : LPAREN intexp . RPAREN 
+
+	PLUS	shift 72
+	MINUS	shift 71
+	RPAREN	shift 115
+
+
+	.	error
+
+
+state 80:
+
+	Declaration : VARI VariableList COLON TYPE . SCOLON 
+
+	SCOLON	shift 117
+
+
+	.	error
+
+
+state 81:
+
+	VariableList : Var COMMA VariableList .  (reduce by rule 7)
+
+	COLON	reduce by rule 7
+
+
+	.	error
+
+
+state 82:
+
+	Term : Term MOD Factor .  (reduce by rule 25)
 
 	PLUS	reduce by rule 25
 	MINUS	reduce by rule 25
@@ -1288,9 +1839,9 @@ state 76:
 	.	error
 
 
-state 77:
+state 83:
 
-	Term : Term TIMES Factor .  (reduce by rule 24)
+	Term : Term DIV Factor .  (reduce by rule 24)
 
 	PLUS	reduce by rule 24
 	MINUS	reduce by rule 24
@@ -1314,57 +1865,524 @@ state 77:
 	.	error
 
 
-state 78:
+state 84:
 
-	BTerm : BTerm AND Bfactor .  (reduce by rule 36)
+	Term : Term TIMES Factor .  (reduce by rule 23)
 
-	AND	reduce by rule 36
-	OR	reduce by rule 36
-	RPAREN	reduce by rule 36
-	SCOLON	reduce by rule 36
-	THEN	reduce by rule 36
-	DO	reduce by rule 36
+	PLUS	reduce by rule 23
+	MINUS	reduce by rule 23
+	TIMES	reduce by rule 23
+	DIV	reduce by rule 23
+	MOD	reduce by rule 23
+	AND	reduce by rule 23
+	OR	reduce by rule 23
+	LT	reduce by rule 23
+	LEQ	reduce by rule 23
+	GT	reduce by rule 23
+	GEQ	reduce by rule 23
+	EQ	reduce by rule 23
+	NEQ	reduce by rule 23
+	RPAREN	reduce by rule 23
+	SCOLON	reduce by rule 23
+	THEN	reduce by rule 23
+	DO	reduce by rule 23
+
+
+	.	error
+
+error:  state 85: reduce/reduce conflict between rule 35 and rule 34 on NEQ
+error:  state 85: reduce/reduce conflict between rule 35 and rule 34 on EQ
+error:  state 85: reduce/reduce conflict between rule 35 and rule 34 on GEQ
+error:  state 85: reduce/reduce conflict between rule 35 and rule 34 on GT
+error:  state 85: reduce/reduce conflict between rule 35 and rule 34 on LEQ
+error:  state 85: reduce/reduce conflict between rule 35 and rule 34 on LT
+error:  state 85: reduce/reduce conflict between rule 35 and rule 34 on OR
+error:  state 85: reduce/reduce conflict between rule 35 and rule 34 on AND
+
+state 85:
+
+	BTerm : Bfactor .  (reduce by rule 34)
+	BTerm : BTerm AND Bfactor .  (reduce by rule 35)
+
+	AND	reduce by rule 34
+	OR	reduce by rule 34
+	LT	reduce by rule 34
+	LEQ	reduce by rule 34
+	GT	reduce by rule 34
+	GEQ	reduce by rule 34
+	EQ	reduce by rule 34
+	NEQ	reduce by rule 34
+	RPAREN	reduce by rule 35
+	SCOLON	reduce by rule 35
+	THEN	reduce by rule 35
+	DO	reduce by rule 35
 
 
 	.	error
 
 
-state 79:
+state 86:
 
 	Command : WHILE boolexp DO CommandSeqa . ENDWH 
 
-	ENDWH	shift 93
+	ENDWH	shift 118
 
 
 	.	error
 
+error:  state 87: shift/reduce conflict (shift NEQ, reduce by rule 52)
+error:  state 87: shift/reduce conflict (shift EQ, reduce by rule 52)
+error:  state 87: shift/reduce conflict (shift GEQ, reduce by rule 52)
+error:  state 87: shift/reduce conflict (shift GT, reduce by rule 52)
+error:  state 87: shift/reduce conflict (shift LEQ, reduce by rule 52)
+error:  state 87: shift/reduce conflict (shift LT, reduce by rule 52)
+error:  state 87: shift/reduce conflict (shift OR, reduce by rule 52)
 
-state 80:
+state 87:
 
-	boolexp : boolexp OR BTerm .  (reduce by rule 34)
-	BTerm : BTerm . AND Bfactor 
+	boolexp : boolexp . OR BTerm 
+	Comparison : boolexp . LT boolexp 
+	Comparison : boolexp . GT boolexp 
+	Comparison : boolexp . LEQ boolexp 
+	Comparison : boolexp . GEQ boolexp 
+	Comparison : boolexp . EQ boolexp 
+	Comparison : boolexp . NEQ boolexp 
+	Comparison : boolexp NEQ boolexp .  (reduce by rule 52)
+	Comparison : boolexp . LT intexp 
+	Comparison : boolexp . GT intexp 
+	Comparison : boolexp . LEQ intexp 
+	Comparison : boolexp . GEQ intexp 
+	Comparison : boolexp . EQ intexp 
+	Comparison : boolexp . NEQ intexp 
 
-	AND	shift 56
-	OR	reduce by rule 34
-	RPAREN	reduce by rule 34
-	SCOLON	reduce by rule 34
-	THEN	reduce by rule 34
-	DO	reduce by rule 34
+	AND	reduce by rule 52
+	OR	shift 64
+	LT	shift 63
+	LEQ	shift 62
+	GT	shift 61
+	GEQ	shift 60
+	EQ	shift 59
+	NEQ	shift 58
+	RPAREN	reduce by rule 52
+	SCOLON	reduce by rule 52
+	THEN	reduce by rule 52
+	DO	reduce by rule 52
 
 
 	.	error
 
+error:  state 88: shift/reduce conflict (shift NEQ, reduce by rule 58)
+error:  state 88: shift/reduce conflict (shift EQ, reduce by rule 58)
+error:  state 88: shift/reduce conflict (shift GEQ, reduce by rule 58)
+error:  state 88: shift/reduce conflict (shift GT, reduce by rule 58)
+error:  state 88: shift/reduce conflict (shift LEQ, reduce by rule 58)
+error:  state 88: shift/reduce conflict (shift LT, reduce by rule 58)
 
-state 81:
+state 88:
 
 	intexp : intexp . PLUS Term 
 	intexp : intexp . MINUS Term 
-	Comparison : intexp NEQ intexp .  (reduce by rule 47)
+	Comparison : intexp . LT intexp 
+	Comparison : intexp . GT intexp 
+	Comparison : intexp . LEQ intexp 
+	Comparison : intexp . GEQ intexp 
+	Comparison : intexp . EQ intexp 
+	Comparison : intexp . NEQ intexp 
+	Comparison : boolexp NEQ intexp .  (reduce by rule 58)
+	Comparison : intexp . LT boolexp 
+	Comparison : intexp . GT boolexp 
+	Comparison : intexp . LEQ boolexp 
+	Comparison : intexp . GEQ boolexp 
+	Comparison : intexp . EQ boolexp 
+	Comparison : intexp . NEQ boolexp 
 
-	PLUS	shift 66
-	MINUS	shift 65
+	PLUS	shift 72
+	MINUS	shift 71
+	AND	reduce by rule 58
+	OR	reduce by rule 58
+	LT	shift 70
+	LEQ	shift 69
+	GT	shift 68
+	GEQ	shift 67
+	EQ	shift 66
+	NEQ	shift 65
+	RPAREN	reduce by rule 58
+	SCOLON	reduce by rule 58
+	THEN	reduce by rule 58
+	DO	reduce by rule 58
+
+
+	.	error
+
+error:  state 89: shift/reduce conflict (shift NEQ, reduce by rule 51)
+error:  state 89: shift/reduce conflict (shift EQ, reduce by rule 51)
+error:  state 89: shift/reduce conflict (shift GEQ, reduce by rule 51)
+error:  state 89: shift/reduce conflict (shift GT, reduce by rule 51)
+error:  state 89: shift/reduce conflict (shift LEQ, reduce by rule 51)
+error:  state 89: shift/reduce conflict (shift LT, reduce by rule 51)
+error:  state 89: shift/reduce conflict (shift OR, reduce by rule 51)
+
+state 89:
+
+	boolexp : boolexp . OR BTerm 
+	Comparison : boolexp . LT boolexp 
+	Comparison : boolexp . GT boolexp 
+	Comparison : boolexp . LEQ boolexp 
+	Comparison : boolexp . GEQ boolexp 
+	Comparison : boolexp . EQ boolexp 
+	Comparison : boolexp EQ boolexp .  (reduce by rule 51)
+	Comparison : boolexp . NEQ boolexp 
+	Comparison : boolexp . LT intexp 
+	Comparison : boolexp . GT intexp 
+	Comparison : boolexp . LEQ intexp 
+	Comparison : boolexp . GEQ intexp 
+	Comparison : boolexp . EQ intexp 
+	Comparison : boolexp . NEQ intexp 
+
+	AND	reduce by rule 51
+	OR	shift 64
+	LT	shift 63
+	LEQ	shift 62
+	GT	shift 61
+	GEQ	shift 60
+	EQ	shift 59
+	NEQ	shift 58
+	RPAREN	reduce by rule 51
+	SCOLON	reduce by rule 51
+	THEN	reduce by rule 51
+	DO	reduce by rule 51
+
+
+	.	error
+
+error:  state 90: shift/reduce conflict (shift NEQ, reduce by rule 57)
+error:  state 90: shift/reduce conflict (shift EQ, reduce by rule 57)
+error:  state 90: shift/reduce conflict (shift GEQ, reduce by rule 57)
+error:  state 90: shift/reduce conflict (shift GT, reduce by rule 57)
+error:  state 90: shift/reduce conflict (shift LEQ, reduce by rule 57)
+error:  state 90: shift/reduce conflict (shift LT, reduce by rule 57)
+
+state 90:
+
+	intexp : intexp . PLUS Term 
+	intexp : intexp . MINUS Term 
+	Comparison : intexp . LT intexp 
+	Comparison : intexp . GT intexp 
+	Comparison : intexp . LEQ intexp 
+	Comparison : intexp . GEQ intexp 
+	Comparison : intexp . EQ intexp 
+	Comparison : intexp . NEQ intexp 
+	Comparison : boolexp EQ intexp .  (reduce by rule 57)
+	Comparison : intexp . LT boolexp 
+	Comparison : intexp . GT boolexp 
+	Comparison : intexp . LEQ boolexp 
+	Comparison : intexp . GEQ boolexp 
+	Comparison : intexp . EQ boolexp 
+	Comparison : intexp . NEQ boolexp 
+
+	PLUS	shift 72
+	MINUS	shift 71
+	AND	reduce by rule 57
+	OR	reduce by rule 57
+	LT	shift 70
+	LEQ	shift 69
+	GT	shift 68
+	GEQ	shift 67
+	EQ	shift 66
+	NEQ	shift 65
+	RPAREN	reduce by rule 57
+	SCOLON	reduce by rule 57
+	THEN	reduce by rule 57
+	DO	reduce by rule 57
+
+
+	.	error
+
+error:  state 91: shift/reduce conflict (shift NEQ, reduce by rule 50)
+error:  state 91: shift/reduce conflict (shift EQ, reduce by rule 50)
+error:  state 91: shift/reduce conflict (shift GEQ, reduce by rule 50)
+error:  state 91: shift/reduce conflict (shift GT, reduce by rule 50)
+error:  state 91: shift/reduce conflict (shift LEQ, reduce by rule 50)
+error:  state 91: shift/reduce conflict (shift LT, reduce by rule 50)
+error:  state 91: shift/reduce conflict (shift OR, reduce by rule 50)
+
+state 91:
+
+	boolexp : boolexp . OR BTerm 
+	Comparison : boolexp . LT boolexp 
+	Comparison : boolexp . GT boolexp 
+	Comparison : boolexp . LEQ boolexp 
+	Comparison : boolexp . GEQ boolexp 
+	Comparison : boolexp GEQ boolexp .  (reduce by rule 50)
+	Comparison : boolexp . EQ boolexp 
+	Comparison : boolexp . NEQ boolexp 
+	Comparison : boolexp . LT intexp 
+	Comparison : boolexp . GT intexp 
+	Comparison : boolexp . LEQ intexp 
+	Comparison : boolexp . GEQ intexp 
+	Comparison : boolexp . EQ intexp 
+	Comparison : boolexp . NEQ intexp 
+
+	AND	reduce by rule 50
+	OR	shift 64
+	LT	shift 63
+	LEQ	shift 62
+	GT	shift 61
+	GEQ	shift 60
+	EQ	shift 59
+	NEQ	shift 58
+	RPAREN	reduce by rule 50
+	SCOLON	reduce by rule 50
+	THEN	reduce by rule 50
+	DO	reduce by rule 50
+
+
+	.	error
+
+error:  state 92: shift/reduce conflict (shift NEQ, reduce by rule 56)
+error:  state 92: shift/reduce conflict (shift EQ, reduce by rule 56)
+error:  state 92: shift/reduce conflict (shift GEQ, reduce by rule 56)
+error:  state 92: shift/reduce conflict (shift GT, reduce by rule 56)
+error:  state 92: shift/reduce conflict (shift LEQ, reduce by rule 56)
+error:  state 92: shift/reduce conflict (shift LT, reduce by rule 56)
+
+state 92:
+
+	intexp : intexp . PLUS Term 
+	intexp : intexp . MINUS Term 
+	Comparison : intexp . LT intexp 
+	Comparison : intexp . GT intexp 
+	Comparison : intexp . LEQ intexp 
+	Comparison : intexp . GEQ intexp 
+	Comparison : intexp . EQ intexp 
+	Comparison : intexp . NEQ intexp 
+	Comparison : boolexp GEQ intexp .  (reduce by rule 56)
+	Comparison : intexp . LT boolexp 
+	Comparison : intexp . GT boolexp 
+	Comparison : intexp . LEQ boolexp 
+	Comparison : intexp . GEQ boolexp 
+	Comparison : intexp . EQ boolexp 
+	Comparison : intexp . NEQ boolexp 
+
+	PLUS	shift 72
+	MINUS	shift 71
+	AND	reduce by rule 56
+	OR	reduce by rule 56
+	LT	shift 70
+	LEQ	shift 69
+	GT	shift 68
+	GEQ	shift 67
+	EQ	shift 66
+	NEQ	shift 65
+	RPAREN	reduce by rule 56
+	SCOLON	reduce by rule 56
+	THEN	reduce by rule 56
+	DO	reduce by rule 56
+
+
+	.	error
+
+error:  state 93: shift/reduce conflict (shift NEQ, reduce by rule 48)
+error:  state 93: shift/reduce conflict (shift EQ, reduce by rule 48)
+error:  state 93: shift/reduce conflict (shift GEQ, reduce by rule 48)
+error:  state 93: shift/reduce conflict (shift GT, reduce by rule 48)
+error:  state 93: shift/reduce conflict (shift LEQ, reduce by rule 48)
+error:  state 93: shift/reduce conflict (shift LT, reduce by rule 48)
+error:  state 93: shift/reduce conflict (shift OR, reduce by rule 48)
+
+state 93:
+
+	boolexp : boolexp . OR BTerm 
+	Comparison : boolexp . LT boolexp 
+	Comparison : boolexp . GT boolexp 
+	Comparison : boolexp GT boolexp .  (reduce by rule 48)
+	Comparison : boolexp . LEQ boolexp 
+	Comparison : boolexp . GEQ boolexp 
+	Comparison : boolexp . EQ boolexp 
+	Comparison : boolexp . NEQ boolexp 
+	Comparison : boolexp . LT intexp 
+	Comparison : boolexp . GT intexp 
+	Comparison : boolexp . LEQ intexp 
+	Comparison : boolexp . GEQ intexp 
+	Comparison : boolexp . EQ intexp 
+	Comparison : boolexp . NEQ intexp 
+
+	AND	reduce by rule 48
+	OR	shift 64
+	LT	shift 63
+	LEQ	shift 62
+	GT	shift 61
+	GEQ	shift 60
+	EQ	shift 59
+	NEQ	shift 58
+	RPAREN	reduce by rule 48
+	SCOLON	reduce by rule 48
+	THEN	reduce by rule 48
+	DO	reduce by rule 48
+
+
+	.	error
+
+error:  state 94: shift/reduce conflict (shift NEQ, reduce by rule 54)
+error:  state 94: shift/reduce conflict (shift EQ, reduce by rule 54)
+error:  state 94: shift/reduce conflict (shift GEQ, reduce by rule 54)
+error:  state 94: shift/reduce conflict (shift GT, reduce by rule 54)
+error:  state 94: shift/reduce conflict (shift LEQ, reduce by rule 54)
+error:  state 94: shift/reduce conflict (shift LT, reduce by rule 54)
+
+state 94:
+
+	intexp : intexp . PLUS Term 
+	intexp : intexp . MINUS Term 
+	Comparison : intexp . LT intexp 
+	Comparison : intexp . GT intexp 
+	Comparison : intexp . LEQ intexp 
+	Comparison : intexp . GEQ intexp 
+	Comparison : intexp . EQ intexp 
+	Comparison : intexp . NEQ intexp 
+	Comparison : boolexp GT intexp .  (reduce by rule 54)
+	Comparison : intexp . LT boolexp 
+	Comparison : intexp . GT boolexp 
+	Comparison : intexp . LEQ boolexp 
+	Comparison : intexp . GEQ boolexp 
+	Comparison : intexp . EQ boolexp 
+	Comparison : intexp . NEQ boolexp 
+
+	PLUS	shift 72
+	MINUS	shift 71
+	AND	reduce by rule 54
+	OR	reduce by rule 54
+	LT	shift 70
+	LEQ	shift 69
+	GT	shift 68
+	GEQ	shift 67
+	EQ	shift 66
+	NEQ	shift 65
+	RPAREN	reduce by rule 54
+	SCOLON	reduce by rule 54
+	THEN	reduce by rule 54
+	DO	reduce by rule 54
+
+
+	.	error
+
+error:  state 95: shift/reduce conflict (shift NEQ, reduce by rule 49)
+error:  state 95: shift/reduce conflict (shift EQ, reduce by rule 49)
+error:  state 95: shift/reduce conflict (shift GEQ, reduce by rule 49)
+error:  state 95: shift/reduce conflict (shift GT, reduce by rule 49)
+error:  state 95: shift/reduce conflict (shift LEQ, reduce by rule 49)
+error:  state 95: shift/reduce conflict (shift LT, reduce by rule 49)
+error:  state 95: shift/reduce conflict (shift OR, reduce by rule 49)
+
+state 95:
+
+	boolexp : boolexp . OR BTerm 
+	Comparison : boolexp . LT boolexp 
+	Comparison : boolexp . GT boolexp 
+	Comparison : boolexp . LEQ boolexp 
+	Comparison : boolexp LEQ boolexp .  (reduce by rule 49)
+	Comparison : boolexp . GEQ boolexp 
+	Comparison : boolexp . EQ boolexp 
+	Comparison : boolexp . NEQ boolexp 
+	Comparison : boolexp . LT intexp 
+	Comparison : boolexp . GT intexp 
+	Comparison : boolexp . LEQ intexp 
+	Comparison : boolexp . GEQ intexp 
+	Comparison : boolexp . EQ intexp 
+	Comparison : boolexp . NEQ intexp 
+
+	AND	reduce by rule 49
+	OR	shift 64
+	LT	shift 63
+	LEQ	shift 62
+	GT	shift 61
+	GEQ	shift 60
+	EQ	shift 59
+	NEQ	shift 58
+	RPAREN	reduce by rule 49
+	SCOLON	reduce by rule 49
+	THEN	reduce by rule 49
+	DO	reduce by rule 49
+
+
+	.	error
+
+error:  state 96: shift/reduce conflict (shift NEQ, reduce by rule 55)
+error:  state 96: shift/reduce conflict (shift EQ, reduce by rule 55)
+error:  state 96: shift/reduce conflict (shift GEQ, reduce by rule 55)
+error:  state 96: shift/reduce conflict (shift GT, reduce by rule 55)
+error:  state 96: shift/reduce conflict (shift LEQ, reduce by rule 55)
+error:  state 96: shift/reduce conflict (shift LT, reduce by rule 55)
+
+state 96:
+
+	intexp : intexp . PLUS Term 
+	intexp : intexp . MINUS Term 
+	Comparison : intexp . LT intexp 
+	Comparison : intexp . GT intexp 
+	Comparison : intexp . LEQ intexp 
+	Comparison : intexp . GEQ intexp 
+	Comparison : intexp . EQ intexp 
+	Comparison : intexp . NEQ intexp 
+	Comparison : boolexp LEQ intexp .  (reduce by rule 55)
+	Comparison : intexp . LT boolexp 
+	Comparison : intexp . GT boolexp 
+	Comparison : intexp . LEQ boolexp 
+	Comparison : intexp . GEQ boolexp 
+	Comparison : intexp . EQ boolexp 
+	Comparison : intexp . NEQ boolexp 
+
+	PLUS	shift 72
+	MINUS	shift 71
+	AND	reduce by rule 55
+	OR	reduce by rule 55
+	LT	shift 70
+	LEQ	shift 69
+	GT	shift 68
+	GEQ	shift 67
+	EQ	shift 66
+	NEQ	shift 65
+	RPAREN	reduce by rule 55
+	SCOLON	reduce by rule 55
+	THEN	reduce by rule 55
+	DO	reduce by rule 55
+
+
+	.	error
+
+error:  state 97: shift/reduce conflict (shift NEQ, reduce by rule 47)
+error:  state 97: shift/reduce conflict (shift EQ, reduce by rule 47)
+error:  state 97: shift/reduce conflict (shift GEQ, reduce by rule 47)
+error:  state 97: shift/reduce conflict (shift GT, reduce by rule 47)
+error:  state 97: shift/reduce conflict (shift LEQ, reduce by rule 47)
+error:  state 97: shift/reduce conflict (shift LT, reduce by rule 47)
+error:  state 97: shift/reduce conflict (shift OR, reduce by rule 47)
+
+state 97:
+
+	boolexp : boolexp . OR BTerm 
+	Comparison : boolexp . LT boolexp 
+	Comparison : boolexp LT boolexp .  (reduce by rule 47)
+	Comparison : boolexp . GT boolexp 
+	Comparison : boolexp . LEQ boolexp 
+	Comparison : boolexp . GEQ boolexp 
+	Comparison : boolexp . EQ boolexp 
+	Comparison : boolexp . NEQ boolexp 
+	Comparison : boolexp . LT intexp 
+	Comparison : boolexp . GT intexp 
+	Comparison : boolexp . LEQ intexp 
+	Comparison : boolexp . GEQ intexp 
+	Comparison : boolexp . EQ intexp 
+	Comparison : boolexp . NEQ intexp 
+
 	AND	reduce by rule 47
-	OR	reduce by rule 47
+	OR	shift 64
+	LT	shift 63
+	LEQ	shift 62
+	GT	shift 61
+	GEQ	shift 60
+	EQ	shift 59
+	NEQ	shift 58
 	RPAREN	reduce by rule 47
 	SCOLON	reduce by rule 47
 	THEN	reduce by rule 47
@@ -1373,17 +2391,156 @@ state 81:
 
 	.	error
 
+error:  state 98: shift/reduce conflict (shift NEQ, reduce by rule 53)
+error:  state 98: shift/reduce conflict (shift EQ, reduce by rule 53)
+error:  state 98: shift/reduce conflict (shift GEQ, reduce by rule 53)
+error:  state 98: shift/reduce conflict (shift GT, reduce by rule 53)
+error:  state 98: shift/reduce conflict (shift LEQ, reduce by rule 53)
+error:  state 98: shift/reduce conflict (shift LT, reduce by rule 53)
 
-state 82:
+state 98:
 
 	intexp : intexp . PLUS Term 
 	intexp : intexp . MINUS Term 
-	Comparison : intexp EQ intexp .  (reduce by rule 46)
+	Comparison : intexp . LT intexp 
+	Comparison : intexp . GT intexp 
+	Comparison : intexp . LEQ intexp 
+	Comparison : intexp . GEQ intexp 
+	Comparison : intexp . EQ intexp 
+	Comparison : intexp . NEQ intexp 
+	Comparison : boolexp LT intexp .  (reduce by rule 53)
+	Comparison : intexp . LT boolexp 
+	Comparison : intexp . GT boolexp 
+	Comparison : intexp . LEQ boolexp 
+	Comparison : intexp . GEQ boolexp 
+	Comparison : intexp . EQ boolexp 
+	Comparison : intexp . NEQ boolexp 
 
-	PLUS	shift 66
-	MINUS	shift 65
+	PLUS	shift 72
+	MINUS	shift 71
+	AND	reduce by rule 53
+	OR	reduce by rule 53
+	LT	shift 70
+	LEQ	shift 69
+	GT	shift 68
+	GEQ	shift 67
+	EQ	shift 66
+	NEQ	shift 65
+	RPAREN	reduce by rule 53
+	SCOLON	reduce by rule 53
+	THEN	reduce by rule 53
+	DO	reduce by rule 53
+
+
+	.	error
+
+error:  state 99: reduce/reduce conflict between rule 33 and rule 32 on NEQ
+error:  state 99: reduce/reduce conflict between rule 33 and rule 32 on EQ
+error:  state 99: reduce/reduce conflict between rule 33 and rule 32 on GEQ
+error:  state 99: reduce/reduce conflict between rule 33 and rule 32 on GT
+error:  state 99: reduce/reduce conflict between rule 33 and rule 32 on LEQ
+error:  state 99: reduce/reduce conflict between rule 33 and rule 32 on LT
+error:  state 99: reduce/reduce conflict between rule 33 and rule 32 on OR
+error:  state 99: shift/reduce conflict (shift AND, reduce by rule 33)
+
+state 99:
+
+	boolexp : BTerm .  (reduce by rule 32)
+	boolexp : boolexp OR BTerm .  (reduce by rule 33)
+	BTerm : BTerm . AND Bfactor 
+
+	AND	shift 56
+	OR	reduce by rule 32
+	LT	reduce by rule 32
+	LEQ	reduce by rule 32
+	GT	reduce by rule 32
+	GEQ	reduce by rule 32
+	EQ	reduce by rule 32
+	NEQ	reduce by rule 32
+	RPAREN	reduce by rule 33
+	SCOLON	reduce by rule 33
+	THEN	reduce by rule 33
+	DO	reduce by rule 33
+
+
+	.	error
+
+error:  state 100: shift/reduce conflict (shift NEQ, reduce by rule 64)
+error:  state 100: shift/reduce conflict (shift EQ, reduce by rule 64)
+error:  state 100: shift/reduce conflict (shift GEQ, reduce by rule 64)
+error:  state 100: shift/reduce conflict (shift GT, reduce by rule 64)
+error:  state 100: shift/reduce conflict (shift LEQ, reduce by rule 64)
+error:  state 100: shift/reduce conflict (shift LT, reduce by rule 64)
+error:  state 100: shift/reduce conflict (shift OR, reduce by rule 64)
+
+state 100:
+
+	boolexp : boolexp . OR BTerm 
+	Comparison : boolexp . LT boolexp 
+	Comparison : boolexp . GT boolexp 
+	Comparison : boolexp . LEQ boolexp 
+	Comparison : boolexp . GEQ boolexp 
+	Comparison : boolexp . EQ boolexp 
+	Comparison : boolexp . NEQ boolexp 
+	Comparison : boolexp . LT intexp 
+	Comparison : boolexp . GT intexp 
+	Comparison : boolexp . LEQ intexp 
+	Comparison : boolexp . GEQ intexp 
+	Comparison : boolexp . EQ intexp 
+	Comparison : boolexp . NEQ intexp 
+	Comparison : intexp NEQ boolexp .  (reduce by rule 64)
+
+	AND	reduce by rule 64
+	OR	shift 64
+	LT	shift 63
+	LEQ	shift 62
+	GT	shift 61
+	GEQ	shift 60
+	EQ	shift 59
+	NEQ	shift 58
+	RPAREN	reduce by rule 64
+	SCOLON	reduce by rule 64
+	THEN	reduce by rule 64
+	DO	reduce by rule 64
+
+
+	.	error
+
+error:  state 101: shift/reduce conflict (shift NEQ, reduce by rule 46)
+error:  state 101: shift/reduce conflict (shift EQ, reduce by rule 46)
+error:  state 101: shift/reduce conflict (shift GEQ, reduce by rule 46)
+error:  state 101: shift/reduce conflict (shift GT, reduce by rule 46)
+error:  state 101: shift/reduce conflict (shift LEQ, reduce by rule 46)
+error:  state 101: shift/reduce conflict (shift LT, reduce by rule 46)
+
+state 101:
+
+	intexp : intexp . PLUS Term 
+	intexp : intexp . MINUS Term 
+	Comparison : intexp . LT intexp 
+	Comparison : intexp . GT intexp 
+	Comparison : intexp . LEQ intexp 
+	Comparison : intexp . GEQ intexp 
+	Comparison : intexp . EQ intexp 
+	Comparison : intexp . NEQ intexp 
+	Comparison : intexp NEQ intexp .  (reduce by rule 46)
+	Comparison : intexp . LT boolexp 
+	Comparison : intexp . GT boolexp 
+	Comparison : intexp . LEQ boolexp 
+	Comparison : intexp . GEQ boolexp 
+	Comparison : intexp . EQ boolexp 
+	Comparison : intexp . NEQ boolexp 
+
+	PLUS	shift 72
+	MINUS	shift 71
 	AND	reduce by rule 46
 	OR	reduce by rule 46
+	LT	shift 70
+	LEQ	shift 69
+	GT	shift 68
+	GEQ	shift 67
+	EQ	shift 66
+	NEQ	shift 65
 	RPAREN	reduce by rule 46
 	SCOLON	reduce by rule 46
 	THEN	reduce by rule 46
@@ -1392,17 +2549,82 @@ state 82:
 
 	.	error
 
+error:  state 102: shift/reduce conflict (shift NEQ, reduce by rule 63)
+error:  state 102: shift/reduce conflict (shift EQ, reduce by rule 63)
+error:  state 102: shift/reduce conflict (shift GEQ, reduce by rule 63)
+error:  state 102: shift/reduce conflict (shift GT, reduce by rule 63)
+error:  state 102: shift/reduce conflict (shift LEQ, reduce by rule 63)
+error:  state 102: shift/reduce conflict (shift LT, reduce by rule 63)
+error:  state 102: shift/reduce conflict (shift OR, reduce by rule 63)
 
-state 83:
+state 102:
+
+	boolexp : boolexp . OR BTerm 
+	Comparison : boolexp . LT boolexp 
+	Comparison : boolexp . GT boolexp 
+	Comparison : boolexp . LEQ boolexp 
+	Comparison : boolexp . GEQ boolexp 
+	Comparison : boolexp . EQ boolexp 
+	Comparison : boolexp . NEQ boolexp 
+	Comparison : boolexp . LT intexp 
+	Comparison : boolexp . GT intexp 
+	Comparison : boolexp . LEQ intexp 
+	Comparison : boolexp . GEQ intexp 
+	Comparison : boolexp . EQ intexp 
+	Comparison : boolexp . NEQ intexp 
+	Comparison : intexp EQ boolexp .  (reduce by rule 63)
+
+	AND	reduce by rule 63
+	OR	shift 64
+	LT	shift 63
+	LEQ	shift 62
+	GT	shift 61
+	GEQ	shift 60
+	EQ	shift 59
+	NEQ	shift 58
+	RPAREN	reduce by rule 63
+	SCOLON	reduce by rule 63
+	THEN	reduce by rule 63
+	DO	reduce by rule 63
+
+
+	.	error
+
+error:  state 103: shift/reduce conflict (shift NEQ, reduce by rule 45)
+error:  state 103: shift/reduce conflict (shift EQ, reduce by rule 45)
+error:  state 103: shift/reduce conflict (shift GEQ, reduce by rule 45)
+error:  state 103: shift/reduce conflict (shift GT, reduce by rule 45)
+error:  state 103: shift/reduce conflict (shift LEQ, reduce by rule 45)
+error:  state 103: shift/reduce conflict (shift LT, reduce by rule 45)
+
+state 103:
 
 	intexp : intexp . PLUS Term 
 	intexp : intexp . MINUS Term 
-	Comparison : intexp GEQ intexp .  (reduce by rule 45)
+	Comparison : intexp . LT intexp 
+	Comparison : intexp . GT intexp 
+	Comparison : intexp . LEQ intexp 
+	Comparison : intexp . GEQ intexp 
+	Comparison : intexp . EQ intexp 
+	Comparison : intexp EQ intexp .  (reduce by rule 45)
+	Comparison : intexp . NEQ intexp 
+	Comparison : intexp . LT boolexp 
+	Comparison : intexp . GT boolexp 
+	Comparison : intexp . LEQ boolexp 
+	Comparison : intexp . GEQ boolexp 
+	Comparison : intexp . EQ boolexp 
+	Comparison : intexp . NEQ boolexp 
 
-	PLUS	shift 66
-	MINUS	shift 65
+	PLUS	shift 72
+	MINUS	shift 71
 	AND	reduce by rule 45
 	OR	reduce by rule 45
+	LT	shift 70
+	LEQ	shift 69
+	GT	shift 68
+	GEQ	shift 67
+	EQ	shift 66
+	NEQ	shift 65
 	RPAREN	reduce by rule 45
 	SCOLON	reduce by rule 45
 	THEN	reduce by rule 45
@@ -1411,36 +2633,82 @@ state 83:
 
 	.	error
 
+error:  state 104: shift/reduce conflict (shift NEQ, reduce by rule 62)
+error:  state 104: shift/reduce conflict (shift EQ, reduce by rule 62)
+error:  state 104: shift/reduce conflict (shift GEQ, reduce by rule 62)
+error:  state 104: shift/reduce conflict (shift GT, reduce by rule 62)
+error:  state 104: shift/reduce conflict (shift LEQ, reduce by rule 62)
+error:  state 104: shift/reduce conflict (shift LT, reduce by rule 62)
+error:  state 104: shift/reduce conflict (shift OR, reduce by rule 62)
 
-state 84:
+state 104:
 
-	intexp : intexp . PLUS Term 
-	intexp : intexp . MINUS Term 
-	Comparison : intexp GT intexp .  (reduce by rule 43)
+	boolexp : boolexp . OR BTerm 
+	Comparison : boolexp . LT boolexp 
+	Comparison : boolexp . GT boolexp 
+	Comparison : boolexp . LEQ boolexp 
+	Comparison : boolexp . GEQ boolexp 
+	Comparison : boolexp . EQ boolexp 
+	Comparison : boolexp . NEQ boolexp 
+	Comparison : boolexp . LT intexp 
+	Comparison : boolexp . GT intexp 
+	Comparison : boolexp . LEQ intexp 
+	Comparison : boolexp . GEQ intexp 
+	Comparison : boolexp . EQ intexp 
+	Comparison : boolexp . NEQ intexp 
+	Comparison : intexp GEQ boolexp .  (reduce by rule 62)
 
-	PLUS	shift 66
-	MINUS	shift 65
-	AND	reduce by rule 43
-	OR	reduce by rule 43
-	RPAREN	reduce by rule 43
-	SCOLON	reduce by rule 43
-	THEN	reduce by rule 43
-	DO	reduce by rule 43
+	AND	reduce by rule 62
+	OR	shift 64
+	LT	shift 63
+	LEQ	shift 62
+	GT	shift 61
+	GEQ	shift 60
+	EQ	shift 59
+	NEQ	shift 58
+	RPAREN	reduce by rule 62
+	SCOLON	reduce by rule 62
+	THEN	reduce by rule 62
+	DO	reduce by rule 62
 
 
 	.	error
 
+error:  state 105: shift/reduce conflict (shift NEQ, reduce by rule 44)
+error:  state 105: shift/reduce conflict (shift EQ, reduce by rule 44)
+error:  state 105: shift/reduce conflict (shift GEQ, reduce by rule 44)
+error:  state 105: shift/reduce conflict (shift GT, reduce by rule 44)
+error:  state 105: shift/reduce conflict (shift LEQ, reduce by rule 44)
+error:  state 105: shift/reduce conflict (shift LT, reduce by rule 44)
 
-state 85:
+state 105:
 
 	intexp : intexp . PLUS Term 
 	intexp : intexp . MINUS Term 
-	Comparison : intexp LEQ intexp .  (reduce by rule 44)
+	Comparison : intexp . LT intexp 
+	Comparison : intexp . GT intexp 
+	Comparison : intexp . LEQ intexp 
+	Comparison : intexp . GEQ intexp 
+	Comparison : intexp GEQ intexp .  (reduce by rule 44)
+	Comparison : intexp . EQ intexp 
+	Comparison : intexp . NEQ intexp 
+	Comparison : intexp . LT boolexp 
+	Comparison : intexp . GT boolexp 
+	Comparison : intexp . LEQ boolexp 
+	Comparison : intexp . GEQ boolexp 
+	Comparison : intexp . EQ boolexp 
+	Comparison : intexp . NEQ boolexp 
 
-	PLUS	shift 66
-	MINUS	shift 65
+	PLUS	shift 72
+	MINUS	shift 71
 	AND	reduce by rule 44
 	OR	reduce by rule 44
+	LT	shift 70
+	LEQ	shift 69
+	GT	shift 68
+	GEQ	shift 67
+	EQ	shift 66
+	NEQ	shift 65
 	RPAREN	reduce by rule 44
 	SCOLON	reduce by rule 44
 	THEN	reduce by rule 44
@@ -1449,17 +2717,82 @@ state 85:
 
 	.	error
 
+error:  state 106: shift/reduce conflict (shift NEQ, reduce by rule 60)
+error:  state 106: shift/reduce conflict (shift EQ, reduce by rule 60)
+error:  state 106: shift/reduce conflict (shift GEQ, reduce by rule 60)
+error:  state 106: shift/reduce conflict (shift GT, reduce by rule 60)
+error:  state 106: shift/reduce conflict (shift LEQ, reduce by rule 60)
+error:  state 106: shift/reduce conflict (shift LT, reduce by rule 60)
+error:  state 106: shift/reduce conflict (shift OR, reduce by rule 60)
 
-state 86:
+state 106:
+
+	boolexp : boolexp . OR BTerm 
+	Comparison : boolexp . LT boolexp 
+	Comparison : boolexp . GT boolexp 
+	Comparison : boolexp . LEQ boolexp 
+	Comparison : boolexp . GEQ boolexp 
+	Comparison : boolexp . EQ boolexp 
+	Comparison : boolexp . NEQ boolexp 
+	Comparison : boolexp . LT intexp 
+	Comparison : boolexp . GT intexp 
+	Comparison : boolexp . LEQ intexp 
+	Comparison : boolexp . GEQ intexp 
+	Comparison : boolexp . EQ intexp 
+	Comparison : boolexp . NEQ intexp 
+	Comparison : intexp GT boolexp .  (reduce by rule 60)
+
+	AND	reduce by rule 60
+	OR	shift 64
+	LT	shift 63
+	LEQ	shift 62
+	GT	shift 61
+	GEQ	shift 60
+	EQ	shift 59
+	NEQ	shift 58
+	RPAREN	reduce by rule 60
+	SCOLON	reduce by rule 60
+	THEN	reduce by rule 60
+	DO	reduce by rule 60
+
+
+	.	error
+
+error:  state 107: shift/reduce conflict (shift NEQ, reduce by rule 42)
+error:  state 107: shift/reduce conflict (shift EQ, reduce by rule 42)
+error:  state 107: shift/reduce conflict (shift GEQ, reduce by rule 42)
+error:  state 107: shift/reduce conflict (shift GT, reduce by rule 42)
+error:  state 107: shift/reduce conflict (shift LEQ, reduce by rule 42)
+error:  state 107: shift/reduce conflict (shift LT, reduce by rule 42)
+
+state 107:
 
 	intexp : intexp . PLUS Term 
 	intexp : intexp . MINUS Term 
-	Comparison : intexp LT intexp .  (reduce by rule 42)
+	Comparison : intexp . LT intexp 
+	Comparison : intexp . GT intexp 
+	Comparison : intexp GT intexp .  (reduce by rule 42)
+	Comparison : intexp . LEQ intexp 
+	Comparison : intexp . GEQ intexp 
+	Comparison : intexp . EQ intexp 
+	Comparison : intexp . NEQ intexp 
+	Comparison : intexp . LT boolexp 
+	Comparison : intexp . GT boolexp 
+	Comparison : intexp . LEQ boolexp 
+	Comparison : intexp . GEQ boolexp 
+	Comparison : intexp . EQ boolexp 
+	Comparison : intexp . NEQ boolexp 
 
-	PLUS	shift 66
-	MINUS	shift 65
+	PLUS	shift 72
+	MINUS	shift 71
 	AND	reduce by rule 42
 	OR	reduce by rule 42
+	LT	shift 70
+	LEQ	shift 69
+	GT	shift 68
+	GEQ	shift 67
+	EQ	shift 66
+	NEQ	shift 65
 	RPAREN	reduce by rule 42
 	SCOLON	reduce by rule 42
 	THEN	reduce by rule 42
@@ -1468,39 +2801,178 @@ state 86:
 
 	.	error
 
+error:  state 108: shift/reduce conflict (shift NEQ, reduce by rule 61)
+error:  state 108: shift/reduce conflict (shift EQ, reduce by rule 61)
+error:  state 108: shift/reduce conflict (shift GEQ, reduce by rule 61)
+error:  state 108: shift/reduce conflict (shift GT, reduce by rule 61)
+error:  state 108: shift/reduce conflict (shift LEQ, reduce by rule 61)
+error:  state 108: shift/reduce conflict (shift LT, reduce by rule 61)
+error:  state 108: shift/reduce conflict (shift OR, reduce by rule 61)
 
-state 87:
+state 108:
 
-	intexp : intexp MINUS Term .  (reduce by rule 22)
-	Term : Term . TIMES Factor 
-	Term : Term . DIV Factor 
-	Term : Term . MOD Factor 
+	boolexp : boolexp . OR BTerm 
+	Comparison : boolexp . LT boolexp 
+	Comparison : boolexp . GT boolexp 
+	Comparison : boolexp . LEQ boolexp 
+	Comparison : boolexp . GEQ boolexp 
+	Comparison : boolexp . EQ boolexp 
+	Comparison : boolexp . NEQ boolexp 
+	Comparison : boolexp . LT intexp 
+	Comparison : boolexp . GT intexp 
+	Comparison : boolexp . LEQ intexp 
+	Comparison : boolexp . GEQ intexp 
+	Comparison : boolexp . EQ intexp 
+	Comparison : boolexp . NEQ intexp 
+	Comparison : intexp LEQ boolexp .  (reduce by rule 61)
 
-	PLUS	reduce by rule 22
-	MINUS	reduce by rule 22
-	TIMES	shift 55
-	DIV	shift 54
-	MOD	shift 53
-	AND	reduce by rule 22
-	OR	reduce by rule 22
-	LT	reduce by rule 22
-	LEQ	reduce by rule 22
-	GT	reduce by rule 22
-	GEQ	reduce by rule 22
-	EQ	reduce by rule 22
-	NEQ	reduce by rule 22
-	RPAREN	reduce by rule 22
-	SCOLON	reduce by rule 22
-	THEN	reduce by rule 22
-	DO	reduce by rule 22
+	AND	reduce by rule 61
+	OR	shift 64
+	LT	shift 63
+	LEQ	shift 62
+	GT	shift 61
+	GEQ	shift 60
+	EQ	shift 59
+	NEQ	shift 58
+	RPAREN	reduce by rule 61
+	SCOLON	reduce by rule 61
+	THEN	reduce by rule 61
+	DO	reduce by rule 61
+
+
+	.	error
+
+error:  state 109: shift/reduce conflict (shift NEQ, reduce by rule 43)
+error:  state 109: shift/reduce conflict (shift EQ, reduce by rule 43)
+error:  state 109: shift/reduce conflict (shift GEQ, reduce by rule 43)
+error:  state 109: shift/reduce conflict (shift GT, reduce by rule 43)
+error:  state 109: shift/reduce conflict (shift LEQ, reduce by rule 43)
+error:  state 109: shift/reduce conflict (shift LT, reduce by rule 43)
+
+state 109:
+
+	intexp : intexp . PLUS Term 
+	intexp : intexp . MINUS Term 
+	Comparison : intexp . LT intexp 
+	Comparison : intexp . GT intexp 
+	Comparison : intexp . LEQ intexp 
+	Comparison : intexp LEQ intexp .  (reduce by rule 43)
+	Comparison : intexp . GEQ intexp 
+	Comparison : intexp . EQ intexp 
+	Comparison : intexp . NEQ intexp 
+	Comparison : intexp . LT boolexp 
+	Comparison : intexp . GT boolexp 
+	Comparison : intexp . LEQ boolexp 
+	Comparison : intexp . GEQ boolexp 
+	Comparison : intexp . EQ boolexp 
+	Comparison : intexp . NEQ boolexp 
+
+	PLUS	shift 72
+	MINUS	shift 71
+	AND	reduce by rule 43
+	OR	reduce by rule 43
+	LT	shift 70
+	LEQ	shift 69
+	GT	shift 68
+	GEQ	shift 67
+	EQ	shift 66
+	NEQ	shift 65
+	RPAREN	reduce by rule 43
+	SCOLON	reduce by rule 43
+	THEN	reduce by rule 43
+	DO	reduce by rule 43
+
+
+	.	error
+
+error:  state 110: shift/reduce conflict (shift NEQ, reduce by rule 59)
+error:  state 110: shift/reduce conflict (shift EQ, reduce by rule 59)
+error:  state 110: shift/reduce conflict (shift GEQ, reduce by rule 59)
+error:  state 110: shift/reduce conflict (shift GT, reduce by rule 59)
+error:  state 110: shift/reduce conflict (shift LEQ, reduce by rule 59)
+error:  state 110: shift/reduce conflict (shift LT, reduce by rule 59)
+error:  state 110: shift/reduce conflict (shift OR, reduce by rule 59)
+
+state 110:
+
+	boolexp : boolexp . OR BTerm 
+	Comparison : boolexp . LT boolexp 
+	Comparison : boolexp . GT boolexp 
+	Comparison : boolexp . LEQ boolexp 
+	Comparison : boolexp . GEQ boolexp 
+	Comparison : boolexp . EQ boolexp 
+	Comparison : boolexp . NEQ boolexp 
+	Comparison : boolexp . LT intexp 
+	Comparison : boolexp . GT intexp 
+	Comparison : boolexp . LEQ intexp 
+	Comparison : boolexp . GEQ intexp 
+	Comparison : boolexp . EQ intexp 
+	Comparison : boolexp . NEQ intexp 
+	Comparison : intexp LT boolexp .  (reduce by rule 59)
+
+	AND	reduce by rule 59
+	OR	shift 64
+	LT	shift 63
+	LEQ	shift 62
+	GT	shift 61
+	GEQ	shift 60
+	EQ	shift 59
+	NEQ	shift 58
+	RPAREN	reduce by rule 59
+	SCOLON	reduce by rule 59
+	THEN	reduce by rule 59
+	DO	reduce by rule 59
+
+
+	.	error
+
+error:  state 111: shift/reduce conflict (shift NEQ, reduce by rule 41)
+error:  state 111: shift/reduce conflict (shift EQ, reduce by rule 41)
+error:  state 111: shift/reduce conflict (shift GEQ, reduce by rule 41)
+error:  state 111: shift/reduce conflict (shift GT, reduce by rule 41)
+error:  state 111: shift/reduce conflict (shift LEQ, reduce by rule 41)
+error:  state 111: shift/reduce conflict (shift LT, reduce by rule 41)
+
+state 111:
+
+	intexp : intexp . PLUS Term 
+	intexp : intexp . MINUS Term 
+	Comparison : intexp . LT intexp 
+	Comparison : intexp LT intexp .  (reduce by rule 41)
+	Comparison : intexp . GT intexp 
+	Comparison : intexp . LEQ intexp 
+	Comparison : intexp . GEQ intexp 
+	Comparison : intexp . EQ intexp 
+	Comparison : intexp . NEQ intexp 
+	Comparison : intexp . LT boolexp 
+	Comparison : intexp . GT boolexp 
+	Comparison : intexp . LEQ boolexp 
+	Comparison : intexp . GEQ boolexp 
+	Comparison : intexp . EQ boolexp 
+	Comparison : intexp . NEQ boolexp 
+
+	PLUS	shift 72
+	MINUS	shift 71
+	AND	reduce by rule 41
+	OR	reduce by rule 41
+	LT	shift 70
+	LEQ	shift 69
+	GT	shift 68
+	GEQ	shift 67
+	EQ	shift 66
+	NEQ	shift 65
+	RPAREN	reduce by rule 41
+	SCOLON	reduce by rule 41
+	THEN	reduce by rule 41
+	DO	reduce by rule 41
 
 
 	.	error
 
 
-state 88:
+state 112:
 
-	intexp : intexp PLUS Term .  (reduce by rule 21)
+	intexp : intexp MINUS Term .  (reduce by rule 21)
 	Term : Term . TIMES Factor 
 	Term : Term . DIV Factor 
 	Term : Term . MOD Factor 
@@ -1527,71 +2999,137 @@ state 88:
 	.	error
 
 
-state 89:
+state 113:
 
-	Bfactor : LPAREN boolexp RPAREN .  (reduce by rule 41)
+	intexp : intexp PLUS Term .  (reduce by rule 20)
+	Term : Term . TIMES Factor 
+	Term : Term . DIV Factor 
+	Term : Term . MOD Factor 
 
-	AND	reduce by rule 41
-	OR	reduce by rule 41
-	RPAREN	reduce by rule 41
-	SCOLON	reduce by rule 41
-	THEN	reduce by rule 41
-	DO	reduce by rule 41
-
-
-	.	error
-
-
-state 90:
-
-	Factor : LPAREN intexp RPAREN .  (reduce by rule 30)
-
-	PLUS	reduce by rule 30
-	MINUS	reduce by rule 30
-	TIMES	reduce by rule 30
-	DIV	reduce by rule 30
-	MOD	reduce by rule 30
-	AND	reduce by rule 30
-	OR	reduce by rule 30
-	LT	reduce by rule 30
-	LEQ	reduce by rule 30
-	GT	reduce by rule 30
-	GEQ	reduce by rule 30
-	EQ	reduce by rule 30
-	NEQ	reduce by rule 30
-	RPAREN	reduce by rule 30
-	SCOLON	reduce by rule 30
-	THEN	reduce by rule 30
-	DO	reduce by rule 30
+	PLUS	reduce by rule 20
+	MINUS	reduce by rule 20
+	TIMES	shift 55
+	DIV	shift 54
+	MOD	shift 53
+	AND	reduce by rule 20
+	OR	reduce by rule 20
+	LT	reduce by rule 20
+	LEQ	reduce by rule 20
+	GT	reduce by rule 20
+	GEQ	reduce by rule 20
+	EQ	reduce by rule 20
+	NEQ	reduce by rule 20
+	RPAREN	reduce by rule 20
+	SCOLON	reduce by rule 20
+	THEN	reduce by rule 20
+	DO	reduce by rule 20
 
 
 	.	error
 
 
-state 91:
+state 114:
+
+	Bfactor : LPAREN boolexp RPAREN .  (reduce by rule 40)
+
+	AND	reduce by rule 40
+	OR	reduce by rule 40
+	LT	reduce by rule 40
+	LEQ	reduce by rule 40
+	GT	reduce by rule 40
+	GEQ	reduce by rule 40
+	EQ	reduce by rule 40
+	NEQ	reduce by rule 40
+	RPAREN	reduce by rule 40
+	SCOLON	reduce by rule 40
+	THEN	reduce by rule 40
+	DO	reduce by rule 40
+
+
+	.	error
+
+
+state 115:
+
+	Factor : LPAREN intexp RPAREN .  (reduce by rule 29)
+
+	PLUS	reduce by rule 29
+	MINUS	reduce by rule 29
+	TIMES	reduce by rule 29
+	DIV	reduce by rule 29
+	MOD	reduce by rule 29
+	AND	reduce by rule 29
+	OR	reduce by rule 29
+	LT	reduce by rule 29
+	LEQ	reduce by rule 29
+	GT	reduce by rule 29
+	GEQ	reduce by rule 29
+	EQ	reduce by rule 29
+	NEQ	reduce by rule 29
+	RPAREN	reduce by rule 29
+	SCOLON	reduce by rule 29
+	THEN	reduce by rule 29
+	DO	reduce by rule 29
+
+
+	.	error
+
+
+state 116:
 
 	Command : IF boolexp THEN CommandSeqa . ELSE CommandSeqa ENDIF 
 
-	ELSE	shift 94
+	ELSE	shift 119
 
 
 	.	error
 
 
-state 92:
+state 117:
 
-	Declaration : VARI VariableList COLON TYPE SCOLON .  (reduce by rule 6)
+	Declaration : VARI VariableList COLON TYPE SCOLON .  (reduce by rule 5)
 
-	VARI	reduce by rule 6
-	LBR	reduce by rule 6
+	VARI	reduce by rule 5
+	LBR	reduce by rule 5
 
 
 	.	error
 
 
-state 93:
+state 118:
 
-	Command : WHILE boolexp DO CommandSeqa ENDWH .  (reduce by rule 15)
+	Command : WHILE boolexp DO CommandSeqa ENDWH .  (reduce by rule 16)
+
+	SCOLON	reduce by rule 16
+
+
+	.	error
+
+
+state 119:
+
+	Command : IF boolexp THEN CommandSeqa ELSE . CommandSeqa ENDIF 
+
+	LBR	shift 10
+
+	CommandSeqa	goto 120
+
+	.	error
+
+
+state 120:
+
+	Command : IF boolexp THEN CommandSeqa ELSE CommandSeqa . ENDIF 
+
+	ENDIF	shift 121
+
+
+	.	error
+
+
+state 121:
+
+	Command : IF boolexp THEN CommandSeqa ELSE CommandSeqa ENDIF .  (reduce by rule 15)
 
 	SCOLON	reduce by rule 15
 
@@ -1599,38 +3137,7 @@ state 93:
 	.	error
 
 
-state 94:
-
-	Command : IF boolexp THEN CommandSeqa ELSE . CommandSeqa ENDIF 
-
-	LBR	shift 10
-
-	CommandSeqa	goto 95
-
-	.	error
-
-
-state 95:
-
-	Command : IF boolexp THEN CommandSeqa ELSE CommandSeqa . ENDIF 
-
-	ENDIF	shift 96
-
-
-	.	error
-
-
-state 96:
-
-	Command : IF boolexp THEN CommandSeqa ELSE CommandSeqa ENDIF .  (reduce by rule 14)
-
-	SCOLON	reduce by rule 14
-
-
-	.	error
-
-
-state 97:
+state 122:
 
 
 	EOF	accept
@@ -1638,5 +3145,5 @@ state 97:
 
 	.	error
 
-448 of 641 action table entries left after compaction
-149 goto table entries
+780 of 1063 action table entries left after compaction
+244 goto table entries

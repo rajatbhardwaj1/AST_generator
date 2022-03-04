@@ -3,6 +3,7 @@
 %% (* separates initial section from middle section of .yacc file *)
 %name wh
 %pos int
+(*terminal symbols*)
 %term
 INT of int
 | BOOL of bool 
@@ -11,6 +12,7 @@ INT of int
 | LPAREN (* "(" *)| RPAREN (* ")" *)| EOF (* End of file*)| VAR of string |TELDA| DCOLON
 | VARI|COMMA| LBR|COLON|SCOLON| RBR| SET | READ| WRITE| IF|THEN|ELSE|ENDIF|DO | ENDWH |WHILE
 
+(*non terminal symbols*)
 
 %nonterm
 Start of AST.exp
@@ -25,6 +27,7 @@ Start of AST.exp
 | Unit of AST.exp
 | Var of AST.exp 
 | Comparison of AST.exp 
+| BComparison of AST.exp 
 | Program of AST.exp 
 | Block of AST.exp 
 | Identifier of AST.exp
@@ -35,6 +38,8 @@ Start of AST.exp
 | VariableList of AST.exp
 |Command of AST.exp 
 |Type of AST.exp 
+
+
 %start Start
 %keyword
 %eop EOF
@@ -42,9 +47,10 @@ Start of AST.exp
 %nodefault
 %verbose
 %value INT(0)
+
 %% 
 Start : PROG Identifier DCOLON Block( AST.BinApp(AST.PROG , Identifier , Block ))
-Identifier : Var(Var)
+
 Block: DeclarationSeq CommandSeqa(AST.BinApp(AST.BLOCK ,DeclarationSeq , CommandSeqa)) 
 |CommandSeqa (AST.BinApp(AST.BLOCK ,AST.Int(0) , CommandSeqa)) 
 
@@ -52,9 +58,12 @@ DeclarationSeq :
 Declaration( Declaration)
 | DeclarationSeq Declaration(AST.BinApp(AST.DECLSEQ , DeclarationSeq , Declaration))
 
-Declaration : VARI VariableList COLON TYPE SCOLON (AST.BinAppS(AST.DECL , VariableList , TYPE))
+Declaration : VARI VariableList COLON TYPE SCOLON (AST.BinAppS(AST.DECL , VariableList , TYPE))   (*TYPE is a terminal symbol *)
 
-CommandSeqa : LBR RBR (AST.Int(0)) 
+VariableList : Var (Var) 
+| Var COMMA VariableList ( AST.BinApp(AST.VARL , Var , VariableList1)) 
+
+CommandSeqa : LBR RBR (AST.Int(0))          (*CommandSeqa is modified grammer*)
 | LBR  CommandSeq RBR (CommandSeq)
 
 CommandSeq : Command SCOLON (Command )
@@ -68,47 +77,73 @@ Command : Var SET Exp(AST.BinApp(AST.SET , Var , Exp) )
 
 
 
-VariableList : Var (Var) 
-| Var COMMA VariableList ( AST.BinApp(AST.VARL , Var , VariableList1)) 
 
-Exp : intexp(intexp) | boolexp(boolexp)   (*sort the reduce reduce conflict*)
+Exp : intexp(intexp) | boolexp(boolexp)   (*reduce reduce conflict not sorted*)
 
 intexp : Term (Term)
 (* The following rules specify left associativity *)
-| intexp PLUS Term (AST.BinApp(AST.PLUS,intexp,Term))
+| intexp PLUS Term (AST.BinApp(AST.PLUS,intexp,Term))       (* modified grammer included addop as tokens here only*)
 | intexp MINUS Term (AST.BinApp(AST.MINUS,intexp,Term))
+
 Term : Factor (Factor)
 (* The following rules specify left associativity *)
-| Term TIMES Factor (AST.BinApp(AST.TIMES,Term,Factor))
+| Term TIMES Factor (AST.BinApp(AST.TIMES,Term,Factor))  (* modified grammer included multop as tokens here only*)
 | Term DIV Factor (AST.BinApp(AST.DIV,Term,Factor))
 | Term MOD Factor (AST.BinApp(AST.MOD,Term,Factor))
+
 Factor : Unit (Unit)
 | Var (Var) 
 | TELDA Factor (AST.UnApp(AST.TELDA , Factor))
-(* The following rule specifies right associativity *)
 | LPAREN intexp RPAREN (intexp)
+
 Unit : INT (AST.Int(INT))
 
 Var : VAR (AST.Var(VAR))
 
 boolexp : BTerm(BTerm)
 | boolexp OR BTerm (AST.BinApp(AST.OR,boolexp,BTerm))
+
 BTerm : Bfactor (Bfactor)
-(* The following rules specify left associativity *)
 | BTerm AND Bfactor (AST.BinApp(AST.AND,BTerm,Bfactor))
+
 Bfactor : BUnit (BUnit)
 |Var (Var) 
 
 |Comparison(Comparison) 
 | NOT Bfactor (AST.UnApp(AST.NOT , Bfactor))
-(* The following rule specifies right associativity *)
 | LPAREN boolexp RPAREN (boolexp)
+
 Comparison: 
-intexp LT intexp ( AST.BinApp(AST.LT, intexp1 , intexp2))
+intexp LT intexp ( AST.BinApp(AST.LT, intexp1 , intexp2)) (*modified grammer included compop as terminal symbol here only *)
 |intexp GT intexp ( AST.BinApp(AST.GT, intexp1 , intexp2))
 |intexp LEQ intexp ( AST.BinApp(AST.LEQ, intexp1 , intexp2))
 |intexp GEQ intexp ( AST.BinApp(AST.GEQ, intexp1 , intexp2))
 |intexp EQ intexp ( AST.BinApp(AST.EQ, intexp1 , intexp2))
 |intexp NEQ intexp ( AST.BinApp(AST.NEQ, intexp1 , intexp2))
 
+|boolexp LT boolexp ( AST.BinApp(AST.LT, boolexp1 , boolexp2)) (*modified grammer included compop as terminal symbol here only *)
+|boolexp GT boolexp ( AST.BinApp(AST.GT, boolexp1 , boolexp2))
+|boolexp LEQ boolexp ( AST.BinApp(AST.LEQ, boolexp1 , boolexp2))
+|boolexp GEQ boolexp ( AST.BinApp(AST.GEQ, boolexp1 , boolexp2))
+|boolexp EQ boolexp ( AST.BinApp(AST.EQ, boolexp1 , boolexp2))
+|boolexp NEQ boolexp ( AST.BinApp(AST.NEQ, boolexp1 , boolexp2))
+
+|boolexp LT intexp ( AST.BinApp(AST.LT, boolexp , intexp)) (*modified grammer included compop as terminal symbol here only *)
+|boolexp GT intexp ( AST.BinApp(AST.GT, boolexp , intexp))
+|boolexp LEQ intexp ( AST.BinApp(AST.LEQ, boolexp , intexp))
+|boolexp GEQ intexp ( AST.BinApp(AST.GEQ, boolexp , intexp))
+|boolexp EQ intexp ( AST.BinApp(AST.EQ, boolexp , intexp))
+|boolexp NEQ intexp ( AST.BinApp(AST.NEQ, boolexp , intexp))
+
+|intexp LT boolexp ( AST.BinApp(AST.LT, intexp , boolexp)) (*modified grammer included compop as terminal symbol here only *)
+|intexp GT boolexp ( AST.BinApp(AST.GT, intexp , boolexp))
+|intexp LEQ boolexp ( AST.BinApp(AST.LEQ, intexp , boolexp))
+|intexp GEQ boolexp ( AST.BinApp(AST.GEQ, intexp , boolexp))
+|intexp EQ boolexp ( AST.BinApp(AST.EQ, intexp , boolexp))
+|intexp NEQ boolexp ( AST.BinApp(AST.NEQ, intexp , boolexp))
+
+
 BUnit : BOOL (AST.Bool(BOOL))
+
+
+Identifier : Var(Var)

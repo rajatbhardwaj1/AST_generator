@@ -1,4 +1,22 @@
 # AST_generator
+
+# How to use the program
+
+The main file of the program is while_ast.sml which you have to run in order to parse a file or a string. The instructions are as follows : 
+
+1. The lex and yacc files are already compiled and the lex.sml , yacc.desc , yacc.sig , yacc.sml are generated and are included in the submitted program2.
+
+2. In the terminal first go to project's directory and type `sml` in the terminal to activate sml command prompt.
+
+3. Then type `use "while_ast.sml" ; ` in the command 
+
+4. Now type `parseFile "FileName" ; ` in the terminal to parse a file. The file should be present in the project's directory. If u want to parse a string then type `parseString "String" ;` in the terminal.
+
+5. The result of the function (an AST) would be output on the terminal.
+
+6. Type `ctrl + z` then enter to exit sml command prompt
+
+
 ## Context Free Grammer
 
 Start -> “program” Identifier “::” Block 
@@ -176,3 +194,12 @@ command : READ Var -> (AST.UnApp(AST.READ  , Var))
 1. I used an extra non terminal symbol CommandSeqa so as to help with 0 commands program since we need to put braces also, in case the number of command sequences are 0 then the node of the ast will have int(0) as the value.
 
 2. When the Declaration sequence have 0 declarations, The value of the node will be int(0) 
+
+3. In ast.sml, I have used different operators instead of different datatypes. For example *PROG* and *ADD* are both *binop* the are distinguished purely based on their name i.e. PROG and ADD 
+
+## Acknowledgements
+Sources used 
+
+1.  http://cs.wellesley.edu/~cs235/fall08/lectures/35_YACC_revised.pdf (The glue code (named wh.sml) is copied from this ppt, the formats of lex file and yacc file are also copied from here)
+
+2. http://rogerprice.org/ug/ug.pdf 

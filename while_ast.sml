@@ -1,6 +1,6 @@
 CM.make("$/basis.cm"); (* loads SML basis library *)
 CM.make("$/ml-yacc-lib.cm"); (* loads SML YACC library *)
-use "datastruct.sml"; (* datatype for integer expression abstract syntax trees *)
+use "ast.sml"; (* datatype for integer expression abstract syntax trees *)
 use "wh.yacc.sig"; (* defines wh_TOKENS
 and other datatypes *)
 use "wh.yacc.sml"; (* defines shift-reduce parser *)
