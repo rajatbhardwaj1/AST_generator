@@ -1,6 +1,6 @@
 # AST_generator
 
-# How to use the program
+## How to use the program
 
 The main file of the program is while_ast.sml which you have to run in order to parse a file or a string. The instructions are as follows : 
 
@@ -49,7 +49,7 @@ IntFactor -> Numeral | V ariable |“(”intexp“)” | “˜”IntFactor
 boolexp -> boolexp “||” BoolTerm | BoolTerm 
 
 BoolTerm -> BoolTerm “&&” BoolFactor | BoolFactor 
-BoolF actor -> “tt” | “ff” | Variable | Comparison |
+BoolFactor -> “tt” | “ff” | intexp | Comparison |
 “(”boolexp“)” | “!”BoolFactor 
 
 Comparison -> intexp RelOp intexp |boolexp RelOP boolexp |boolexp RelOP intexp |intexp RelOP boolexp 
@@ -64,7 +64,7 @@ MultOp -> “∗” | “/” | “%”
 
 Identifier -> Letter [Letter | Digit]*
 
-Numeral -> [“+” | “˜”][Digit]^+^ | [Digit]^+^
+Numeral -> [“+” | “˜”][Digit]+ | [Digit]+
 
 ## AST datatype definition
 
@@ -127,8 +127,7 @@ BTerm : Bfactor -> (Bfactor)
 | BTerm AND Bfactor -> (AST.BinApp(AST.AND,BTerm,Bfactor))
 
 Bfactor : BUnit -> (BUnit)
-|Var -> (Var) 
-
+|intexp -> (intexp) 
 |Comparison-> (Comparison) 
 | NOT Bfactor -> (AST.UnApp(AST.NOT , Bfactor))
 | LPAREN boolexp RPAREN -> (boolexp)
@@ -147,20 +146,6 @@ intexp LT intexp -> ( AST.BinApp(AST.LT, intexp1 , intexp2))
 |boolexp GEQ boolexp -> ( AST.BinApp(AST.GEQ, boolexp1 , boolexp2))
 |boolexp EQ boolexp -> ( AST.BinApp(AST.EQ, boolexp1 , boolexp2))
 |boolexp NEQ boolexp -> ( AST.BinApp(AST.NEQ, boolexp1 , boolexp2))
-
-|boolexp LT intexp -> ( AST.BinApp(AST.LT, boolexp , intexp)) 
-|boolexp GT intexp -> ( AST.BinApp(AST.GT, boolexp , intexp))
-|boolexp LEQ intexp -> ( AST.BinApp(AST.LEQ, boolexp , intexp))
-|boolexp GEQ intexp -> ( AST.BinApp(AST.GEQ, boolexp , intexp))
-|boolexp EQ intexp -> ( AST.BinApp(AST.EQ, boolexp , intexp))
-|boolexp NEQ intexp -> ( AST.BinApp(AST.NEQ, boolexp , intexp))
-
-|intexp LT boolexp -> ( AST.BinApp(AST.LT, intexp , boolexp)) 
-|intexp GT boolexp -> ( AST.BinApp(AST.GT, intexp , boolexp))
-|intexp LEQ boolexp -> ( AST.BinApp(AST.LEQ, intexp , boolexp))
-|intexp GEQ boolexp -> ( AST.BinApp(AST.GEQ, intexp , boolexp))
-|intexp EQ boolexp -> ( AST.BinApp(AST.EQ, intexp , boolexp))
-|intexp NEQ boolexp -> ( AST.BinApp(AST.NEQ, intexp , boolexp))
 
 
 BUnit : BOOL -> (AST.Bool(BOOL))
@@ -183,11 +168,10 @@ command : READ Var -> (AST.UnApp(AST.READ  , Var))
 
 ## Other Design Decisions
 
-
-
 1. Since I have kept seperate expression for the boolean expression and the integer expressions, there are 2 reduce| reduce conflicts because in case of x := y, the parser desnot know whether to reduce y as a boolean or an integer, this can be taken care by typechecking in the next phase of the assignement. 
 
-2. One of the major design decision I took is the comparison of boolean and integer. We can take tt=1 and ff=0 and compare the bools and integers. Since there is a reduce reduce conflict in the grammar, the parser is unable to parse the sentences like (A < C) < D, since it parses D as an integer, so we need to allow integer- bool comparision so as to parse the expressions like these. The modern programming languages such as C++ also allow the int-bool comparison so this design decision is valid. Since in the assignement it was mentioned we can compare bools among each other thats why I had to take this design .decision to allow bool-bool , int - bool comparison both. This lead to many shift-reduce and reduce-reduce conflicts, these conflicts can be prevented by typechecking in the next phase of the assignemt.
+2. The above reduce reduce conflicts lead to problem in the parsing of the expression like tt && x where x is a variable, it read x as an integer expression and generated parse error. To get rid of this parse error I made a slight change in the orignal grammar. Insted of the Boolfactor -> variable, i changed it to Boolfactor -> integerexpression. This sorted all the problems without intermixing the integer and binary expression. Now whenever we get a variable, it will be parsed to boolean when ever the equation is of boolean form. The only problem it leads to is that it will accept the variable equations which has both integer and boolean operator if it doesnot have any integer or boolean (tt or ff) in it. This can be taken care in the next phase of the assignment via type checking.
+ 
 
 ## Other Implementation Decisions
 
@@ -195,7 +179,9 @@ command : READ Var -> (AST.UnApp(AST.READ  , Var))
 
 2. When the Declaration sequence have 0 declarations, The value of the node will be int(0) 
 
-3. In ast.sml, I have used different operators instead of different datatypes. For example *PROG* and *ADD* are both *binop* , they are distinguished purely based on their name i.e. PROG and ADD 
+
+3. In ast.sml, I have used different operators instead of different datatypes. For example *PROG* and *ADD* are both *binop*, they are distinguished purely based on their name i.e. PROG and ADD , this knowledge can be used in the next step of the assignemt to distinguish the nature of the operators.
+
 
 ## Acknowledgements
 Sources used 

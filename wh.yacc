@@ -100,18 +100,19 @@ Unit : INT (AST.Int(INT))
 
 Var : VAR (AST.Var(VAR))
 
-boolexp : BTerm(BTerm)
+boolexp :
+ BTerm(BTerm)
 | boolexp OR BTerm (AST.BinApp(AST.OR,boolexp,BTerm))
 
 BTerm : Bfactor (Bfactor)
 | BTerm AND Bfactor (AST.BinApp(AST.AND,BTerm,Bfactor))
 
 Bfactor : BUnit (BUnit)
-|Var (Var) 
-
+|intexp(intexp) 
 |Comparison(Comparison) 
 | NOT Bfactor (AST.UnApp(AST.NOT , Bfactor))
 | LPAREN boolexp RPAREN (boolexp)
+
 
 Comparison: 
 intexp LT intexp ( AST.BinApp(AST.LT, intexp1 , intexp2)) (*modified grammer included compop as terminal symbol here only *)
@@ -127,20 +128,6 @@ intexp LT intexp ( AST.BinApp(AST.LT, intexp1 , intexp2)) (*modified grammer inc
 |boolexp GEQ boolexp ( AST.BinApp(AST.GEQ, boolexp1 , boolexp2))
 |boolexp EQ boolexp ( AST.BinApp(AST.EQ, boolexp1 , boolexp2))
 |boolexp NEQ boolexp ( AST.BinApp(AST.NEQ, boolexp1 , boolexp2))
-
-|boolexp LT intexp ( AST.BinApp(AST.LT, boolexp , intexp)) (*modified grammer included compop as terminal symbol here only *)
-|boolexp GT intexp ( AST.BinApp(AST.GT, boolexp , intexp))
-|boolexp LEQ intexp ( AST.BinApp(AST.LEQ, boolexp , intexp))
-|boolexp GEQ intexp ( AST.BinApp(AST.GEQ, boolexp , intexp))
-|boolexp EQ intexp ( AST.BinApp(AST.EQ, boolexp , intexp))
-|boolexp NEQ intexp ( AST.BinApp(AST.NEQ, boolexp , intexp))
-
-|intexp LT boolexp ( AST.BinApp(AST.LT, intexp , boolexp)) (*modified grammer included compop as terminal symbol here only *)
-|intexp GT boolexp ( AST.BinApp(AST.GT, intexp , boolexp))
-|intexp LEQ boolexp ( AST.BinApp(AST.LEQ, intexp , boolexp))
-|intexp GEQ boolexp ( AST.BinApp(AST.GEQ, intexp , boolexp))
-|intexp EQ boolexp ( AST.BinApp(AST.EQ, intexp , boolexp))
-|intexp NEQ boolexp ( AST.BinApp(AST.NEQ, intexp , boolexp))
 
 
 BUnit : BOOL (AST.Bool(BOOL))
