@@ -41,7 +41,7 @@ Start of AST.exp
 
 
 %start Start
-%keyword
+%keyword 
 %eop EOF
 %noshift EOF
 %nodefault
