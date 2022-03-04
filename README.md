@@ -195,7 +195,7 @@ command : READ Var -> (AST.UnApp(AST.READ  , Var))
 
 2. When the Declaration sequence have 0 declarations, The value of the node will be int(0) 
 
-3. In ast.sml, I have used different operators instead of different datatypes. For example *PROG* and *ADD* are both *binop* the are distinguished purely based on their name i.e. PROG and ADD 
+3. In ast.sml, I have used different operators instead of different datatypes. For example *PROG* and *ADD* are both *binop* , they are distinguished purely based on their name i.e. PROG and ADD 
 
 ## Acknowledgements
 Sources used 
