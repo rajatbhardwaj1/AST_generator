@@ -64,7 +64,7 @@ MultOp -> “∗” | “/” | “%”
 
 Identifier -> Letter [Letter | Digit]*
 
-Numeral -> [“+” | “˜”][Digit]^+^ | [Digit]^+^
+Numeral -> [“+” | “˜”][Digit] ^+^ | [Digit] ^+^
 
 ## AST datatype definition
 
